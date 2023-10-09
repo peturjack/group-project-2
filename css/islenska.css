@@ -2,18 +2,37 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
+}
+
 .page1 {
     height: 100vh;
     padding: 0 3.4rem;
 }
 
-.header {
-    height: 9.3rem;
-}
 
 .container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 .center-element-h2 h2 {
@@ -36,6 +55,16 @@
     margin-top: 5rem;
 }
 
+.byrjendur-grid-fyrsta {
+    display: grid;
+    grid-template-areas:
+      "top-box top-box"
+      "left-box right-box";
+    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
+    grid-gap: 10px;
+    margin-top: 2.2rem;
+}
+
 .toughness-level {
     grid-area: top-box;
     height: 5rem;
@@ -55,6 +84,7 @@
 .toughness-level-2 h3 {
     font-size: 2.8rem;
     margin-bottom: 0.2rem;
+    font-weight: normal;
 }
 
 .toughness-level-3 {
@@ -68,11 +98,13 @@
 .toughness-level-3 h3 {
     font-size: 2.8rem;
     margin-bottom: 0.2rem;
+    font-weight: normal;
 }
 
 .toughness-level h3 {
     font-size: 2.8rem;
     margin-bottom: 0.2rem;
+    font-weight: normal;
 }
 
 .box-left {
@@ -83,6 +115,12 @@
     background-color: #fcf5fc;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-left:hover {
+    transform: scale(1.05);
 }
 
 .box-left-2 {
@@ -93,6 +131,12 @@
     background-color: #fffaf5;
     display: flex;
     align-items: center;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.box-left-2:hover {
+    transform: scale(1.05);
 }
 
 .box-left-3 {
@@ -103,6 +147,12 @@
     background-color: #f5fafc;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-left-3:hover {
+    transform: scale(1.05);
 }
 
 .box-left-2 p {
@@ -130,6 +180,12 @@
     background-color: #fcf5fc;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-right:hover {
+    transform: scale(1.05);
 }
 
 .box-right-2 {
@@ -140,6 +196,12 @@
     background-color: #fffaf5;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-right-2:hover {
+    transform: scale(1.05);
 }
 
 .box-right-3 {
@@ -150,6 +212,12 @@
     background-color: #f5fafc;
     display: flex;
     align-items: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+}
+
+.box-right-3:hover {
+    transform: scale(1.05);
 }
 
 .box-right-2 p {
