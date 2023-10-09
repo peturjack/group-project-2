@@ -97,3 +97,35 @@ position: relative;
     top: 50%; 
     transform: translateY(-50%);
 }
+
+/* Media Query for Desktop Styles */
+@media (min-width: 1024px) {
+    /* Desktop-specific styles go here */
+
+    .header {
+        height: 6rem;
+        padding: 1rem 5rem; /* Adjust padding for desktop */
+    }
+
+    .logo {
+        margin-top: 1.5rem; /* Adjust margin for desktop */
+        margin-bottom: 1rem; /* Adjust margin for desktop */
+    }
+
+    .menu {
+        margin-top: 3rem; /* Adjust margin for desktop */
+        margin-bottom: 2rem; /* Adjust margin for desktop */
+        display: flex; /* Make menu items align horizontally */
+        justify-content: flex-end; /* Push the menu items to the right */
+        align-items: center;
+    }
+
+    .background {
+        margin-bottom: 2.4rem;
+        background-size: cover;
+        background-attachment: fixed;
+        display: flex;
+        justify-content: flex-start; /* Align the background to the left */
+        align-items: center;
+    }
+}
