@@ -1,0 +1,18 @@
+
+
+.islenska {
+    display: grid ;
+    grid-template-areas:
+    "top-box top-box"
+    "left-box right-box";
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin-top: 5rem;
+}
+.box-right{
+    grid-area: top-box;
+    height: 50px;
+    border: solid 2px red;
+}
+
+
