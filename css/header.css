@@ -1,0 +1,25 @@
+* {
+    font-size: 62.5%;
+}
+
+.header {
+    width: 39rem;
+    height: 9.3rem;
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+}
+
+.logo {
+    position: relative;
+    align-items: left;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+    margin-right: 9.9rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
