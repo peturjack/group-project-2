@@ -24,3 +24,8 @@
     margin-top: 5.1rem;
     margin-bottom: 2.2rem;
 }
+
+.logoAnimation {
+    height: 9.6rem;
+    overflow: hidden;
+}
