@@ -1,5 +1,99 @@
-*{
+* {
+    font-size: 62.5%;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+}
+
+.header {
+    height: 9.3rem;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
+
+.background{
+    margin-bottom: 2.4rem;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.Buttons button {
+position: relative;
+   text-decoration: none;
+   border-style: none;
+   background-color: white;
+   border-radius: 5rem;
+   width: 32.2rem;
+   height: 4.3rem;
+   margin: 1rem;
+}
+
+.button-frontpage{
+    font-size:2rem;
+}
+
+.Buttons{
+   text-align: center;
+}
+
+
+.Leita button{
+    margin: 2rem;
+    border-color:#2c2c2c;
+    border-style: solid;
+}
+
+.Íslenska button{
+    border-color:#d1f0b3;
+    border-style: solid;
+}
+
+.Stærðfræði button{
+    border-color:#ffe0c2;
+    border-style: solid;
+}
+
+.Enska button{
+    border-color: #c2e0f0;
+    border-style: solid;
+}
+
+.Danska button{
+    border-color: #ffc2c2;
+    border-style: solid;
+}
+
+.Samfélagsgreinar button{
+    border-color: #f2cbf2;
+    border-style: solid;
+}
+
+.Leita button::after {
+    content: ""; /* Add content to the ::after pseudo-element */
+    display: inline-block;
+    width: 2rem; 
+    height: 2rem; 
+    background-image: url("icons/magnifying_glass.png"); 
+    background-size: cover;
+    position: absolute;
+    right: 2.5rem; 
+    top: 50%; 
+    transform: translateY(-50%);
 }
