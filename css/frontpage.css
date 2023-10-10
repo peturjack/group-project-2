@@ -1,5 +1,210 @@
-*{
+* {
+    font-size: 62.5%;
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
 }
+
+.desktop{
+    display: none;
+}
+
+.header {
+    height: 9.3rem;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
+
+.background{
+    margin-bottom: 2.4rem;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.Buttons button {
+position: relative;
+   text-decoration: none;
+   border-style: none;
+   background-color: white;
+   border-radius: 5rem;
+   width: 32.2rem;
+   height: 4.3rem;
+   margin: 1rem;
+}
+
+.button-frontpage{
+    font-size:2rem;
+}
+
+.Buttons{
+   text-align: center;
+}
+
+
+.Leita button{
+    margin: 2rem;
+    border-color:#2c2c2c;
+    border-style: solid;
+}
+
+.Íslenska button{
+    border-color:#d1f0b3;
+    border-style: solid;
+}
+
+.Stærðfræði button{
+    border-color:#ffe0c2;
+    border-style: solid;
+}
+
+.Enska button{
+    border-color: #c2e0f0;
+    border-style: solid;
+}
+
+.Danska button{
+    border-color: #ffc2c2;
+    border-style: solid;
+}
+
+.Samfélagsgreinar button{
+    border-color: #f2cbf2;
+    border-style: solid;
+}
+
+.Leita button::after {
+    content: ""; /* Add content to the ::after pseudo-element */
+    display: inline-block;
+    width: 2rem; 
+    height: 2rem; 
+    background-image: url("../icons/magnifying_glass.png"); 
+    background-size: cover;
+    position: absolute;
+    right: 2.5rem; 
+    top: 50%; 
+    transform: translateY(-50%);
+}
+    @media (min-width: 1024px) {
+        
+        .desktop{
+            display: block;
+            font-size: 5rem;
+            text-align: center;
+            margin-top: 3.5rem;
+            margin-bottom: 2rem;
+            font-weight: bold;
+        }
+        .light{
+            font-weight: 100;
+            font-size: 5rem;
+        }
+        
+        
+        
+        .Buttons {
+            text-align: right;
+            margin-top: 2rem;
+        }
+    
+        .Buttons button {
+
+            position: relative;
+            text-decoration: none;
+            border-style: none;
+            background-color: white;
+            border-radius: 5rem;
+            width: 45rem;
+            height: 6rem;
+            margin: 1rem;
+        }
+    
+        .button-frontpage {
+            font-size: 2,5rem;
+        }
+    
+        .Leita button {
+            margin-top: 2rem;
+            border-color: #2c2c2c;
+            border-style: solid;
+        }
+    
+        .Íslenska button {
+            margin-top: 2rem;
+            border-color: #d1f0b3;
+            border-style: solid;
+        }
+    
+        .Stærðfræði button {
+            border-color: #ffe0c2;
+            border-style: solid;
+        }
+    
+        .Enska button {
+            border-color: #c2e0f0;
+            border-style: solid;
+        }
+    
+        .Danska button {
+            border-color: #ffc2c2;
+            border-style: solid;
+        }
+    
+        .Samfélagsgreinar button {
+            border-color: #f2cbf2;
+            border-style: solid;
+        }
+    
+        .Leita button::after {
+            content: ""; /* Add content to the ::after pseudo-element */
+            display: inline-block;
+            width: 2rem;
+            height: 2rem;
+            background-image: url("../icons/magnifying_glass.png");
+            background-size: cover;
+            position: absolute;
+            right: 2.5rem;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    
+        /* Adjust the grid container to place background next to buttons */
+        .grid-container {
+            display: grid;
+            grid-template-columns: auto 1fr; /* Adjust column widths to place background next to buttons */
+            align-items: center;
+            margin-bottom: 2.4rem;
+            margin-right: 6rem;
+        }
+    
+        .background {
+            background-size: cover;
+            background-attachment: fixed;
+            width: 100%; /* Full width for the background */
+            height: auto; /* Adjust the height as needed */
+            margin-left: 6rem;
+            margin-top: 3rem;
+        }
+
+        .image{
+            width: 76rem;
+            height: 46.5rem;
+            border-radius: 1rem;
+        }
+    }
