@@ -1,0 +1,61 @@
+.heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3.2rem;
+}
+
+/* text box */
+#site-search {
+    width: 32.2rem;
+    height: 4.3rem;
+    border-radius: .1rem ;
+    font-size: 1.6rem;
+    border-color: #000000;
+    border-radius: .5rem;
+    padding-right: 3rem;
+}
+
+.inputIcon {
+    position: relative;
+}
+
+.searchIcon {
+    position: absolute;
+    right: 8.5rem;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    rotate: 35.39°;
+}
+
+/* categories */
+.catName {
+    font-size: 2.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+}
+/* search filters */
+.searchFilters {
+    display: flex;
+    justify-content: space-around;
+}
+
+/* category items */
+.catItems {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+/* search button */
+.button {
+    width: 32.2rem;
+    height: 4.3rem;
+    border-radius: 9999rem;
+    font-size: 2rem;
+    background-color: #66CC0030;
+    border-color: transparent;
+}
