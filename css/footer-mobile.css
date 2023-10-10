@@ -1,0 +1,23 @@
+*{
+    font-size: 62.5%;
+}
+.footer {
+    display:flex ;
+    justify-content: space-between;
+    width: 4.3rem;
+    height: 5.2rem;
+    border: 0rem;
+    padding-top: 5.9rem;
+  }
+.netfang {
+    padding-left: 3.4rem;
+    padding-top: 2.3rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
+.simi{
+    padding-right: 3.4rem;
+    padding-top: 2.3rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.2rem;
+}
