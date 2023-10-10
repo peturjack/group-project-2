@@ -52,17 +52,47 @@
       "left-box right-box";
     grid-template-columns: 1fr 1fr; /* Two columns with equal width */
     grid-gap: 10px;
-    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
-.byrjendur-grid-fyrsta {
-    display: grid;
-    grid-template-areas:
-      "top-box top-box"
-      "left-box right-box";
-    grid-template-columns: 1fr 1fr; /* Two columns with equal width */
-    grid-gap: 10px;
-    margin-top: 2.2rem;
+
+
+.left-side-image {
+    display: none;
+}
+
+@media (min-width: 800px) {
+    .all-around-the-world {
+        display: flex;
+    }
+
+    .right-side-section {
+        width: 30%;
+        height: 100%;
+    }
+
+    .left-side-image {
+        display: flex;
+        width: 65%;
+        margin-right: 5%;
+        align-items: end;
+    }
+
+    .left-side-image img {
+        width: 100%;
+        object-fit: cover;
+        border-radius: 0.5rem;
+        object-position: center;
+       
+        height: 100%;
+    }
+
+     .mb0 {
+        margin-bottom: 0;
+    }
+    
+
+    
 }
 
 .toughness-level {
@@ -71,34 +101,6 @@
     border-bottom: solid 0.2rem #cd36cd;
     display: flex;
     align-items: end;
-}
-
-.toughness-level-2 {
-    grid-area: top-box;
-    height: 5rem;
-    border-bottom: solid 0.2rem #ff9933;
-    display: flex;
-    align-items: end;
-}
-
-.toughness-level-2 h3 {
-    font-size: 2.8rem;
-    margin-bottom: 0.2rem;
-    font-weight: normal;
-}
-
-.toughness-level-3 {
-    grid-area: top-box;
-    height: 5rem;
-    border-bottom: solid 0.2rem #3399cc;
-    display: flex;
-    align-items: end;
-}
-
-.toughness-level-3 h3 {
-    font-size: 2.8rem;
-    margin-bottom: 0.2rem;
-    font-weight: normal;
 }
 
 .toughness-level h3 {
@@ -115,62 +117,10 @@
     background-color: #fcf5fc;
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
     transition: 0.5s ease;
 }
-
-.box-left:hover {
-    transform: scale(1.05);
-}
-
-.box-left-2 {
-    grid-area: left-box;
-    height: 11rem;
-    border: solid 0.2rem #ff9933;
-    border-radius: 0.8rem;
-    background-color: #fffaf5;
-    display: flex;
-    align-items: center;
-    transition: 0.5s ease;
-    cursor: pointer;
-}
-
-.box-left-2:hover {
-    transform: scale(1.05);
-}
-
-.box-left-3 {
-    grid-area: left-box;
-    height: 11rem;
-    border: solid 0.2rem #3399cc;
-    border-radius: 0.8rem;
-    background-color: #f5fafc;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.box-left-3:hover {
-    transform: scale(1.05);
-}
-
-.box-left-2 p {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-.box-left-3 p {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-
-.box-left p {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
 
 .box-right {
     grid-area: right-box;
@@ -180,52 +130,12 @@
     background-color: #fcf5fc;
     display: flex;
     align-items: center;
+    justify-content: center;
     cursor: pointer;
     transition: 0.5s ease;
 }
 
-.box-right:hover {
-    transform: scale(1.05);
-}
-
-.box-right-2 {
-    grid-area: right-box;
-    height: 11rem;
-    border: solid 0.2rem #ff9933;
-    border-radius: 0.8rem;
-    background-color: #fffaf5;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.box-right-2:hover {
-    transform: scale(1.05);
-}
-
-.box-right-3 {
-    grid-area: right-box;
-    height: 11rem;
-    border: solid 0.2rem #3399cc;
-    border-radius: 0.8rem;
-    background-color: #f5fafc;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    transition: 0.5s ease;
-}
-
-.box-right-3:hover {
-    transform: scale(1.05);
-}
-
-.box-right-2 p {
-    font-size: 1.6rem;
-    text-align: center;
-}
-
-.box-right-3 p {
+.box-left p {
     font-size: 1.6rem;
     text-align: center;
 }
@@ -235,8 +145,59 @@
     text-align: center;
 }
 
+@media (min-width: 1460px){
+
+    .box-left {
+        grid-area: left-box;
+        height: 10vw;
+    }
+
+    .box-right {
+        grid-area: right-box;
+        height: 10vw;
+ 
+    }
+
+    .toughness-level h3 {
+        font-size: 3rem;
+    }
+
+    .box-left p {
+        font-size: 2.2rem;
+        
+    }
+    
+    .box-right p {
+        font-size: 2.2rem;
+        
+    }
+}
+
+
+.box-left:hover {
+    transform: scale(1.05);
+}
+
+.box-right:hover {
+    transform: scale(1.05);
+}
 
 
 
+.orange-color {
+    border: solid 0.2rem #ff9933;
+    background-color: #fffaf5;
+}
 
+.orange-color-line {
+    border-bottom: solid 0.2rem #ff9933;
+}
 
+.blue-color {
+    background-color: #f5fcfa;
+    border: solid 0.2rem #3399cc;
+}
+
+.blue-color-line {
+    border-bottom: solid 0.2rem #3399cc;
+}
