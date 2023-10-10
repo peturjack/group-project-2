@@ -9,24 +9,25 @@
 }
 
 .header {
-    height: 9.3rem;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
     display: flex;
     justify-content: space-between;
 }
 
-.logo {
+.logoAnimation {
     position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
+    margin-top: 1.8rem;
+    margin-left: 1rem;
+    height: 7.3rem;
+    overflow: hidden;
 }
 
 .menu {
     position: relative;
     align-items: right;
     margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
+    margin-right: 3.4rem;
+    width: 3rem;
+    height: 2rem;
 }
 
 .background{
@@ -94,7 +95,7 @@ position: relative;
     display: inline-block;
     width: 2rem; 
     height: 2rem; 
-    background-image: url("../icons/magnifying_glass.png"); 
+    background-image: url("../icons/magnifying_glass.svg"); 
     background-size: cover;
     position: absolute;
     right: 2.5rem; 
