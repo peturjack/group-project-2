@@ -1,9 +1,37 @@
+* {
+    font-size: 62.5%;
+    padding: 0;
+    margin: 0;
+}
+
 .leitPage {
     margin-left: 3.4rem;
     margin-right: 3.4rem;
 }
 
+/*header*/
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
+
+/*leit*/
 .heading {
+    margin-top: 2.4rem;
     font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
     text-align: center;
@@ -11,50 +39,87 @@
 
 /* text box */
 #site-search {
+    margin-top: 2.2rem;
     width: 32.2rem;
     height: 4.3rem;
     font-size: 1.6rem;
-    border-radius: 9999;
-    border-color:#000000;
+    border-color: black;
 }
 
 .inputIcon {
     position: relative;
 }
 
+/*line under text box*/
+.line {
+    margin-top: 3.3rem;
+    height: .3rem;
+    background-color: #66CC0030;
+    border: none;
+}
+
 /* categories */
 .catName {
-    font-size: 2.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.5rem;
+    font-size: 3.9rem;
     display: flex;
     justify-content: space-between;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding-bottom: .4rem;
+}
+
+.tegundWord {
+    margin-right: 3.6rem;
+}
+
+/*lines under category names*/
+.fag {
+    color: #FF333330;
+}
+
+.tegundLine {
+    color: #CD36CD30;
+}
+
+.erfiðleika {
+    color: #FF993330;
+}
+
+.timaLine {
+    color: #3399CC30;
 }
 
 /* category items */
 .catItems {
+    margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
 }
 
+.tegundItems {
+    width: 12rem;
+}
+
+.timaItems {
+    width: 12rem;
+}
+
+/* check boxes*/
 .checkmark {
     font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.container {
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
 }
 
 /* search button */
 .button {
+    margin-top: 4.5rem;
     width: 32.2rem;
     height: 4.3rem;
     border-radius: 9999rem;
     font-size: 2rem;
     background-color: #66CC0030;
     border-color: transparent;
-}
-
-hr {
-    background-color: #66CC0030;
 }

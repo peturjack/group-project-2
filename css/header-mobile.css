@@ -4,6 +4,7 @@
     margin: 0;
 }
 
+/*both logo and menu*/
 .header {
     height: 9.3rem;
     padding-left: 3.4rem;
@@ -12,20 +13,17 @@
     justify-content: space-between;
 }
 
+/*logo*/
 .logo {
     position: relative;
     margin-top: 2.6rem;
     margin-bottom: 1.5rem;
 }
 
+/*hamburger menu*/
 .menu {
     position: relative;
     align-items: right;
     margin-top: 5.1rem;
     margin-bottom: 2.2rem;
-}
-
-.logoAnimation {
-    height: 9.6rem;
-    overflow: hidden;
 }
