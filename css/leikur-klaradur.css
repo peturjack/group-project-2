@@ -3,6 +3,29 @@
     margin: 0;
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
 }
 
 .leikur-klaradur-page-1 {
@@ -10,23 +33,26 @@
     height: 100vh;
     padding: 0 3.4rem;
 }
-.header{
-    height: 9.3rem;
-}
 
 .confetti{
     width: 100%;
-    height: 48.7rem;
-    margin-top: 1.1rem;
+    height: 34.5rem;
+    margin-top: 0.5rem;
     border: .2rem solid #F0C3F0;
     display: flex;
     justify-content: center;
     align-items: center; 
+    flex-direction: column;
 }
-.confetti p {
+.confetti h1 {
     font-size: 3.2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-weight: 500;
     
 }
+
+
 .skra-stig{
     width: 32.2rem;
     height: 4.3rem;
@@ -36,7 +62,7 @@
     align-items: center; 
     background-color: #F0C3F0;
     border-radius: 999.9rem;
-    margin-top: 1rem;
+    margin-top: 1.5rem;
 }
 .skra-stig p {
     font-size: 2rem;

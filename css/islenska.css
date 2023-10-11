@@ -2,26 +2,30 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
+a{
+    text-decoration: none;
+    color:black;
 }
 
-.logoAnimation {
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.logo {
     position: relative;
-    margin-top: 1.8rem;
-    margin-left: 1rem;
-    height: 7.3rem;
-    overflow: hidden;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
 }
 
 .menu {
     position: relative;
     align-items: right;
     margin-top: 5.1rem;
-    margin-right: 3.4rem;
-    width: 3rem;
-    height: 2rem;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
 }
 
 .page1 {
