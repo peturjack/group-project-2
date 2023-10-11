@@ -9,12 +9,27 @@
 </head>
 <body>
     <div class="page1">
-
+        <!-- header starts -->
         <div class="header">
             <img class="logo" src="../photos/logo.png">
-            <img class="menu" src="../icons/hamburger_menu.svg">
+            <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg">
+
         </div>
-        
+
+        <div id="dropdown" class="dropdown-menu">
+            <nav>
+                <ul>
+                    <li><a href="#">Leit</a></li>
+                    <li><a href="#">Um okkur</a></li>
+                    <li><a href="#">Áskriftir</a></li>
+                    <li><a href="#">Hafa samband</a></li>
+                    <li><a href="#">Hjálp</a></li>
+                </ul>
+            </nav>
+        </div>
+        <!-- header ends -->
+
+        <!-- container around the text above the box -->
         <div class="container">
             <div class="left-element-arrow">
                 <a href="front-page.html"><img src="../icons/arrow.svg" alt="left-arrow"></a>
@@ -26,13 +41,17 @@
                 <img src="" alt="left-arrow">
             </div>
         </div>
-        <!-- byrjendur grid toughness level 1 -->
-        <div class="all-around-the-world">
+        <!-- container around the text above the box ends -->
 
-        
-        <div class="left-side-image">
-            <img src="../photos/pic-frontpage-small.png" alt="">
-        </div>
+        <!-- goes around all the boxes and the h3 -->
+        <div class="all-around-the-world">
+        <!-- the container around the left side image -->
+            <div class="left-side-image">
+                <img src="../photos/pic-frontpage-small.png" alt="">
+            </div>
+             <!-- the container around the left side image ends -->
+
+             <!-- the container around the right section starts -->
         <div class="right-side-section">
             <section class="byrjendur-grid">
                 <div class="toughness-level">
@@ -50,7 +69,6 @@
                 </div>
             </section>
         
-        <!-- byrjendur grid toughness level 2 -->
         <section class="byrjendur-grid">
             <div class="toughness-level orange-color-line">
                 <h3>2. Miðstig</h3>
@@ -62,7 +80,7 @@
                 <p>Málfræði og málnotkun</p>
             </div>
         </section>
-        <!-- byrjendur grid toughness level 3 -->
+        
         <section class="byrjendur-grid mb0">
             <div class="toughness-level blue-color-line">
                 <h3>3. Lengra komnir</h3>
@@ -73,10 +91,11 @@
             <div class="box-right blue-color">
                 <p>Málfræði og málnotkun</p>
             </div>
-        </section>
-        </div>
-    </div>
-    </div>
-
+            </section>
+         </div>
+     </div>
+</div>
+<!--  -->
+<script src="../menu.js"></script>
 </body>
 </html>

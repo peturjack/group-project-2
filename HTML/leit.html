@@ -12,8 +12,16 @@
 </head>
 <body>
     <div class="leitPage">
+        <div class="header">
+            <img class="logo" src="../photos/logo.png" alt="skolavefurinn.is logo">
+            <img class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+        </div>
         <h1 class="heading">Leit</h1>
-        <!--text box-->
+        <div class="wrapper">
+            <img class="search-icon" src="../icons/magnifying_glass.svg"/>
+            <input class="search" placeholder="Search" type="text" >
+          </div>
+        <!--search box
         <form class="inline">
             <div class="inputIcon">
                 <input type="search" id="site-search" name="" placeholder="Hverju ertu að leita að?">
@@ -21,13 +29,13 @@
                     <img src="../icons/magnifying_glass.svg" alt="magnifying glass">
                 </label>
             </div>
-        </form>
-        <hr>
+        </form>-->
+        <hr class="line">
         <div class="searchFilters">
             <div class="catName">
                 <!--fag og tegund-->
-                <h2>Fag</h2>
-                <h2>Tegund</h2>
+                <h2>Fag<hr class="fag"></h2>
+                <h2 class="tegundWord">Tegund <hr class="tegundLine"></h2>
             </div>
             <div class="catItems">
                 <div class="fagItems">
@@ -89,8 +97,8 @@
 
             <div class="catName">
                 <!--erfiðleika stig og tímalengd-->
-                <h2>Erfiðleika stig</h2>
-                <h2>Tímalengd</h2>
+                <h2>Erfiðleika stig <hr class="erfiðleika"></h2>
+                <h2 class="timaWord">Tímalengd <hr class="timaLine"></h2>
             </div>
             <div class="catItems">
                 <div class="erfiðleikaItems">
