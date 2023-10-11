@@ -1,219 +1,209 @@
+/* Reset some default styles for all elements */
 * {
-    font-size: 62.5%;
+    font-size: 62.5%;  /* Set the base font size to 62.5% for easier rem unit calculations */
     padding: 0;
     margin: 0;
 }
 
-.desktop{
+/* Hide elements with the .desktop class initially */
+.desktop {
     display: none;
 }
 
+/* Style the header section */
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between;  /* Space between header elements */
 }
 
+/* Style the animated logo */
 .logoAnimation {
     position: relative;
     margin-top: 1.8rem;
     margin-left: 1rem;
     height: 7.3rem;
-    overflow: hidden;
+    overflow: hidden;  /* Hide overflowing content */
 }
 
+/* Style the menu icon */
 .menu {
     position: relative;
-    align-items: right;
     margin-top: 5.1rem;
     margin-right: 3.4rem;
     width: 3rem;
     height: 2rem;
 }
 
-.background{
+/* Style the background image container */
+.background {
     margin-bottom: 2.4rem;
-    background-size: cover;
-    background-attachment: fixed;
+    background-size: cover;  /* Scale the background image to cover the container */
+    background-attachment: fixed;  /* Fixed background position while scrolling */
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
 }
 
+/* Style buttons within the .Buttons class */
 .Buttons button {
-position: relative;
-   text-decoration: none;
-   border-style: none;
-   background-color: white;
-   border-radius: 5rem;
-   width: 32.2rem;
-   height: 4.3rem;
-   margin: 1rem;
-   cursor: pointer;
-   transition: 0.5s ease;
+    position: relative;
+    text-decoration: none;
+    border-style: none;
+    background-color: white;
+    border-radius: 5rem;
+    width: 32.2rem;
+    height: 4.3rem;
+    margin: 1rem;
+    cursor: pointer;
+    transition: 0.5s ease;  /* Add a transition effect on hover */
 }
 
-
+/* Scale buttons on hover */
 .Buttons button:hover {
     transform: scale(1.05);
 }
 
-
-.button-frontpage{
-    font-size:2rem;
+/* Style buttons with the .button-frontpage class */
+.button-frontpage {
+    font-size: 2rem;
 }
 
-.Buttons{
-   text-align: center;
+/* Center-align text in the .Buttons class */
+.Buttons {
+    text-align: center;
 }
 
-
-.Leita button{
-    margin: 1.2rem;
-    border-color:#2c2c2c;
+/* Specific styling for the "Leita" button */
+.Leita button {
+    margin-top: 1;
+    margin-bottom: 2rem;
+    border-color: #2c2c2c;
     border-style: solid;
 }
 
-.Íslenska button{
-    border-color:#d1f0b3;
+/* Specific styling for the "Íslenska" button */
+.Íslenska button {
+    margin-top: 2rem;
+    border-color: #d1f0b3;
     border-style: solid;
 }
 
-.Stærðfræði button{
-    border-color:#ffe0c2;
+/* Specific styling for the "Stærðfræði" button */
+.Stærðfræði button {
+    border-color: #ffe0c2;
     border-style: solid;
 }
 
-.Enska button{
+/* Specific styling for the "Enska" button */
+.Enska button {
     border-color: #c2e0f0;
     border-style: solid;
 }
 
-.Danska button{
+/* Specific styling for the "Danska" button */
+.Danska button {
     border-color: #ffc2c2;
     border-style: solid;
 }
 
-.Samfélagsgreinar button{
+/* Specific styling for the "Samfélagsgreinar" button */
+.Samfélagsgreinar button {
     border-color: #f2cbf2;
     border-style: solid;
 }
 
+/* Add a magnifying glass icon after the "Leita" button */
 .Leita button::after {
-    content: ""; /* Add content to the ::after pseudo-element */
+    content: "";
     display: inline-block;
-    width: 2rem; 
-    height: 2rem; 
-    background-image: url("../icons/magnifying_glass.svg"); 
+    width: 2rem;
+    height: 2rem;
+    background-image: url("../icons/magnifying_glass.svg");
     background-size: cover;
     position: absolute;
-    right: 2.5rem; 
-    top: 50%; 
+    right: 2.5rem;
+    top: 50%;
     transform: translateY(-50%);
 }
-    @media (min-width: 1024px) {
-        
-        .desktop{
-            display: block;
-            font-size: 5rem;
-            text-align: center;
-            margin-top: 3.5rem;
-            margin-bottom: 2rem;
-            font-weight: bold;
-        }
-        .light{
-            font-weight: 100;
-            font-size: 5rem;
-        }
-        
-        
-        
-        .Buttons {
-            text-align: right;
-            margin-top: 2rem;
-        }
-    
-        .Buttons button {
 
-            position: relative;
-            text-decoration: none;
-            border-style: none;
-            background-color: white;
-            border-radius: 5rem;
-            width: 45rem;
-            height: 6rem;
-            margin: 1rem;
-        }
-    
-        .button-frontpage {
-            font-size: 2,5rem;
-        }
-    
-        .Leita button {
-            margin-top: 2rem;
-            border-color: #2c2c2c;
-            border-style: solid;
-        }
-    
-        .Íslenska button {
-            margin-top: 1rem;
-            border-color: #d1f0b3;
-            border-style: solid;
-        }
-    
-        .Stærðfræði button {
-            border-color: #ffe0c2;
-            border-style: solid;
-        }
-    
-        .Enska button {
-            border-color: #c2e0f0;
-            border-style: solid;
-        }
-    
-        .Danska button {
-            border-color: #ffc2c2;
-            border-style: solid;
-        }
-    
-        .Samfélagsgreinar button {
-            border-color: #f2cbf2;
-            border-style: solid;
-        }
-    
-        .Leita button::after {
-            content: ""; /* Add content to the ::after pseudo-element */
-            display: inline-block;
-            width: 2rem;
-            height: 2rem;
-            background-image: url("../icons/magnifying_glass.png");
-            background-size: cover;
-            position: absolute;
-            right: 2.5rem;
-            top: 50%;
-            transform: translateY(-50%);
-        }
-    
-        /* Adjust the grid container to place background next to buttons */
-        .grid-container {
-            display: grid;
-            grid-template-columns: auto 1fr; /* Adjust column widths to place background next to buttons */
-            align-items: center;
-            margin-bottom: 2.4rem;
-            margin-right: 6rem;
-        }
-    
-        .background {
-            background-size: cover;
-            background-attachment: fixed;
-            width: 100%; /* Full width for the background */
-            height: auto; /* Adjust the height as needed */
-            margin-left: 6rem;
-            margin-top: 3rem;
-        }
-
-        .image{
-            width: 76rem;
-            height: 46.5rem;
-            border-radius: 1rem;
-        }
+/* Media query for the desktop version (min-width: 1024px) */
+@media (min-width: 1024px) {
+    .desktop {
+        display: block;  /* Show elements with the .desktop class */
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 3.5rem;
+        margin-bottom: 2rem;
+        font-weight: bold;
     }
+
+    /* Style elements with the .light class */
+    .light {
+        font-weight: 100;
+        font-size: 5rem;
+    }
+
+    /* Adjust text alignment and spacing for buttons in the .Buttons class */
+    .Buttons {
+        text-align: right;
+        margin-top: 2rem;
+    }
+
+    /* Style buttons for the desktop version */
+    .Buttons button {
+        position: relative;
+        text-decoration: none;
+        border-style: none;
+        background-color: white;
+        border-radius: 5rem;
+        width: 45rem;
+        height: 6rem;
+        margin: 1rem;
+    }
+
+    /* Increase font size for buttons with the .button-frontpage class */
+    .button-frontpage {
+        font-size: 2.5rem; 
+    }
+
+    /* Specific styling for buttons in the .Leita class */
+    .Leita button {
+        margin-top: 2rem;
+        border-color: #2c2c2c;
+        border-style: solid;
+    }
+
+    /* Specific styling for buttons in the .Íslenska class */
+    .Íslenska button {
+        margin-top: 1rem;
+        border-color: #d1f0b3;
+        border-style: solid;
+    }
+
+
+    /* Adjust the grid container to place background next to buttons */
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto 1fr;  /* Adjust column widths to place background next to buttons */
+        align-items: center;
+        margin-bottom: 2.4rem;
+        margin-right: 6rem;
+    }
+
+    /* Style the background for the desktop version */
+    .background {
+        background-size: cover;
+        background-attachment: fixed;
+        width: 100%;  /* Full width for the background */
+        height: auto;  /* Adjust the height as needed */
+        margin-left: 6rem;
+        margin-top: 3rem;
+    }
+
+    /* Adjust the dimensions and border radius of the background image */
+    .image {
+        width: 76rem;
+        height: 46.5rem;
+        border-radius: 1rem;
+    }
+}
