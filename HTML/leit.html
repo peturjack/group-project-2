@@ -11,109 +11,128 @@
     <title>Leit</title>
 </head>
 <body>
-    <h1 class="heading">Leit</h1>
-    <!--text box-->
-    <form class="inline">
-        <div class="inputIcon">
-            <input type="search" id="site-search" name="" placeholder="Hverju ertu að leita að?">
-            <label for="site-search" class="searchIcon">
-                <img src="../icons/magnifying_glass.png" alt="magnifying glass">
-            </label>
-        </div>
-    </form>
-    <div class="searchFilters">
-        <div class="catName">
-            <!--fag og tegund-->
-            <h2>Fag</h2>
-            <h2>Tegund</h2>
-        </div>
-        <div class="catItems">
-            <!--fag-->
-            <label class="container">Íslenska
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Stærðfræði
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Enska
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Danska
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
+    <div class="leitPage">
+        <h1 class="heading">Leit</h1>
+        <!--text box-->
+        <form class="inline">
+            <div class="inputIcon">
+                <input type="search" id="site-search" name="" placeholder="Hverju ertu að leita að?">
+                <label for="site-search" class="searchIcon">
+                    <img src="../icons/magnifying_glass.svg" alt="magnifying glass">
+                </label>
+            </div>
+        </form>
+        <hr>
+        <div class="searchFilters">
+            <div class="catName">
+                <!--fag og tegund-->
+                <h2>Fag</h2>
+                <h2>Tegund</h2>
+            </div>
+            <div class="catItems">
+                <div class="fagItems">
+                    <!--fag-->
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Íslenska</span>
+                    </label>
 
-            <label class="container">Samfélagsgr.
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-          </div>
-          <div class="catItems">
-            <!--tegund-->
-            <label class="container">Próf
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Leikir
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Lesefni
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Verkefni
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Stærðfræði</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Enska</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Danska</span>
+                    </label>
 
-            <label class="container">Útprentað
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-          </div> 
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Samfélagsgr.</span>
+                    </label>
+                </div>
 
-        <div class="catName">
-            <!--erfiðleika stig og tímalengd-->
-            <h2>Erfiðleika stig</h2>
-            <h2>Tímalengd</h2>
+                <div class="tegundItems">
+                    <!--tegund-->
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Próf</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Leikir</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Lesefni</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Verkefni</span>
+                    </label>
+
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Útprentað</span>
+                    </label>
+                </div> 
+            </div>
+
+            <div class="catName">
+                <!--erfiðleika stig og tímalengd-->
+                <h2>Erfiðleika stig</h2>
+                <h2>Tímalengd</h2>
+            </div>
+            <div class="catItems">
+                <div class="erfiðleikaItems">
+                    <!--erfiðleika stig-->
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Byrjendur</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Miðstig</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">Lengra komnir</span>
+                    </label>
+                </div>
+
+                <div class="timaItems">
+                    <!--tímalengd-->
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">0-10 mín</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">10-30 mín</span>
+                    </label>
+                    
+                    <label class="container">
+                        <input type="checkbox">
+                        <span class="checkmark">30+ mín</span>
+                    </label>
+                </div>
+            </div>
         </div>
-        <div class="catItems">
-            <!--erfiðleika stig-->
-            <label class="container">Byrjendur
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Miðstig
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-            
-            <label class="container">Lengra komnir
-                <input type="checkbox">
-                <span class="checkmark"></span>
-            </label>
-          </div> 
-        <div class="catItems">
-
-                <!--tímalengd-->
-                <p class="categoryItems">0-5 mín</p>
-                <p class="categoryItems">5-15 mín</p>
-                <p class="categoryItems">15-30 mín</p>
-        </div>
-</div>
-    <!-- search button-->
-    <button class="button">Leita</button>
+        <!-- search button-->
+        <button class="button">Leita</button>
+    </div>
    <script src="../main.js"></script> 
 </body>
 </html>
