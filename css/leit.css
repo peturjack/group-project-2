@@ -1,9 +1,3 @@
-* {
-    font-size: 62.5%;
-    padding: 0;
-    margin: 0;
-}
-
 .leitPage {
     margin-left: 3.4rem;
     margin-right: 3.4rem;
@@ -35,9 +29,11 @@
     font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
     text-align: center;
+    font-weight: lighter;
 }
 
 .wrapper {
+    margin-top: 2.2rem;
     position: relative;
     display: flex;
 }
@@ -46,7 +42,6 @@
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-    width: 1.4rem;
 }
 
 .search {
@@ -54,16 +49,9 @@
     border-radius: 9rem;
     height: 4.3rem;
     width: 100%;
-}
-
-/* search box
-#site-search {
-    margin-top: 2.2rem;
-    width: 32.2rem;
-    height: 4.3rem;
     font-size: 1.6rem;
-    border-color: black;
-}*/
+    color: #00000050;
+}
 
 /*line under text box*/
 .line {
@@ -76,18 +64,38 @@
 /* categories */
 .catName {
     margin-top: 4.5rem;
-    font-size: 3.9rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: .4rem;
 }
 
+.fagWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
 .tegundWord {
     margin-right: 3.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.erfiðleikaWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.timaWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
 }
 
 /*lines under category names*/
-.fag {
+.fagLine {
     color: #FF333330;
 }
 
@@ -95,7 +103,7 @@
     color: #CD36CD30;
 }
 
-.erfiðleika {
+.erfiðleikaLine {
     color: #FF993330;
 }
 
@@ -108,6 +116,13 @@
     margin-top: 1.5rem;
     display: flex;
     justify-content: space-between;
+}
+
+p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
 }
 
 .tegundItems {
