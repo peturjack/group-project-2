@@ -4,6 +4,11 @@
     text-decoration: none;
 }
 
+a{
+    text-decoration: none;
+    color:black;
+}
+
 .header {
     height: 9.3rem;
     display: flex;
