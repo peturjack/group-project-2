@@ -9,7 +9,6 @@ setInterval(function() {
 
 //sheep animation
 let id: number = 0;
-
 function mySheep() {
     let sheep: HTMLImageElement | null = document.querySelector(".sheep img");
     let pos = 0;
