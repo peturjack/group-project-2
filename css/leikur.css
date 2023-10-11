@@ -1,0 +1,68 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.5rem;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
+}
+
+
+.leikur-page-1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 3.4rem;
+}
+
+.arrow{
+    align-self: start;
+    margin-top: 0.6rem;
+}
+
+.leikur{
+   width:100% ;
+    height: 40rem;
+    border: .2rem solid #F0C3F0;
+    font-size: 3.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    margin-top: 3rem;
+}
+.leikur p {
+    font-size: 3.2rem;
+}
+.klara-leik{
+   width: 32.2rem;
+    height: 4.3rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F0C3F0;
+    font-size: 2rem;
+    border-radius: 999.9rem;
+    margin-top: 1.5rem;
+}
+.klara-leik p{
+    font-size: 2rem;
+}

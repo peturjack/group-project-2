@@ -1,23 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/frontpage.css">
-    
+    <link rel="stylesheet" href="../css/front-page.css">
 
     <title>Skólavefurinn</title>
+
 </head>
 
 <body>
-    <div class="Leita">
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
+    <!-- Header -->
+    <div class="header">
+        <div class="logoAnimation">
+            <img class="logoImg" src="../photos/logo_animated.png">
+        </div>
+        <img class="menu" src="../icons/hamburger_menu.svg">
     </div>
+<!-- H1 but just for the desktop version, for mobile version is display-none in CSS -->
+    <h1 class="desktop"><span class="light">Velkominn á </span>Skólavefinn!</h1>
+
+<!-- Grid container -->
+<div class="grid-container">
+<!-- "Background" - photo on the front page and class image to increase the dimension. -->
+    <div class="background"> <img src="../photos/pic-frontpage-small.png" alt="Background" class="image"></div>
+
+<!-- UL menu with the buttons -->
+    <div class="Buttons">
+    <ul>
+        <li class="Leita"><button class="button-frontpage">Leita</button></li>
+        <li class="Íslenska"><a href="islenska-page.html"><button class="button-frontpage">Íslenska</button></a></li>
+        <li class="Stærðfræði"><button class="button-frontpage">Stærðfræði</button></li>
+        <li class="Enska"><button class="button-frontpage">Enska</button></li>
+        <li class="Danska"><button class="button-frontpage">Danska</button></li>
+        <li class="Samfélagsgreinar"><button class="button-frontpage">Samfélagsgreinar</button></li>
+    </ul>
+    </div>
+</div>    
+</div>
+<script src="../menu.js"></script>
+<!--script to connect with JS -->
+<script src="../main.js"></script>
 </body>
 </html>

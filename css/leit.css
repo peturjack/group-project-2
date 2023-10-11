@@ -1,58 +1,152 @@
+.leitPage {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+}
+
+/*header*/
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    position: relative;
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
+
+/*leit*/
 .heading {
+    margin-top: 2.4rem;
     font-family: 'Roboto', sans-serif;
     font-size: 3.2rem;
+    text-align: center;
+    font-weight: lighter;
 }
 
-/* text box */
-#site-search {
-    width: 32.2rem;
-    height: 4.3rem;
-    border-radius: .1rem ;
-    font-size: 1.6rem;
-    border-color: #000000;
-    border-radius: .5rem;
-    padding-right: 3rem;
-}
-
-.inputIcon {
+.wrapper {
+    margin-top: 2.2rem;
     position: relative;
+    display: flex;
 }
 
-.searchIcon {
+.search-icon {
     position: absolute;
-    right: 8.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-    pointer-events: none;
-    rotate: 35.39°;
+    top: 1.5rem;
+    right: 1.5rem;
+}
+
+.search {
+    border: .1rem solid black;
+    border-radius: 9rem;
+    height: 4.3rem;
+    width: 100%;
+    font-size: 1.6rem;
+    color: #00000050;
+}
+
+/*line under text box*/
+.line {
+    margin-top: 3.3rem;
+    height: .3rem;
+    background-color: #66CC0030;
+    border: none;
 }
 
 /* categories */
 .catName {
-    font-size: 2.8rem;
-    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 4.5rem;
     display: flex;
     justify-content: space-between;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
+    padding-bottom: .4rem;
 }
-/* search filters */
-.searchFilters {
-    display: flex;
-    justify-content: space-around;
+
+.fagWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.tegundWord {
+    margin-right: 3.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.erfiðleikaWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+.timaWord {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.8rem;
+}
+
+/*lines under category names*/
+.fagLine {
+    color: #FF333330;
+}
+
+.tegundLine {
+    color: #CD36CD30;
+}
+
+.erfiðleikaLine {
+    color: #FF993330;
+}
+
+.timaLine {
+    color: #3399CC30;
 }
 
 /* category items */
 .catItems {
-    font-size: 2rem;
+    margin-top: 1.5rem;
     display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+p {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    line-height: 1.5;
+}
+
+.tegundItems {
+    width: 12rem;
+}
+
+.timaItems {
+    width: 12rem;
+}
+
+/* check boxes*/
+.checkmark {
+    font-size: 2rem;
+    padding-left: 1rem;
+}
+
+.container {
+    display: flex;
 }
 
 /* search button */
 .button {
-    width: 32.2rem;
+    margin-top: 4.5rem;
+    width: 100%;
     height: 4.3rem;
     border-radius: 9999rem;
     font-size: 2rem;
