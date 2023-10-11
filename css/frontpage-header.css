@@ -1,10 +1,4 @@
 /*this is ONLY for the FRONT PAGE*/
-* {
-    font-size: 62.5%;
-    padding: 0;
-    margin: 0;
-}
-
 .header {
     display: flex;
     justify-content: space-between;
