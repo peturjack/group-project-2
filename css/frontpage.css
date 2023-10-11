@@ -48,7 +48,15 @@ position: relative;
    width: 32.2rem;
    height: 4.3rem;
    margin: 1rem;
+   cursor: pointer;
+   transition: 0.5s ease;
 }
+
+
+.Buttons button:hover {
+    transform: scale(1.05);
+}
+
 
 .button-frontpage{
     font-size:2rem;
@@ -60,7 +68,7 @@ position: relative;
 
 
 .Leita button{
-    margin: 2rem;
+    margin: 1.2rem;
     border-color:#2c2c2c;
     border-style: solid;
 }
@@ -147,7 +155,7 @@ position: relative;
         }
     
         .Íslenska button {
-            margin-top: 2rem;
+            margin-top: 1rem;
             border-color: #d1f0b3;
             border-style: solid;
         }
