@@ -1,5 +1,7 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
 }
 
 a{
@@ -26,6 +28,30 @@ a{
     margin-top: 5.1rem;
     margin-bottom: 2.2rem;
     cursor: pointer;
+}
+
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 93px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+}
+
+
+.dropdown-open {
+    opacity: 1;
+}
+
+.dropdown-menu a {
+    font-size: 2.2rem;
+    color: black;
+    line-height: 2;
+    
 }
 
 .page1 {
@@ -61,7 +87,6 @@ a{
 }
 
 
-
 .left-side-image {
     display: none;
 }
@@ -94,10 +119,7 @@ a{
 
      .mb0 {
         margin-bottom: 0;
-    }
-    
-
-    
+    }  
 }
 
 .toughness-level {
@@ -186,8 +208,6 @@ a{
 .box-right:hover {
     transform: scale(1.05);
 }
-
-
 
 .orange-color {
     border: solid 0.2rem #ff9933;

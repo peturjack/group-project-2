@@ -6,3 +6,4 @@ setInterval(function() {
     rem -= 7.3
     logoAnimation.style.marginTop = rem + "rem"
 }, 150)
+
