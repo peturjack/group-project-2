@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.leikur-klaradur-page-1 {
+    width: 100%;
+    height: 100vh;
+    padding: 0 3.4rem;
+}
+.header{
+    height: 9.3rem;
+}
+
+.confetti{
+    width: 100%;
+    height: 48.7rem;
+    margin-top: 1.1rem;
+    border: .2rem solid #F0C3F0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.confetti p {
+    font-size: 3.2rem;
+    
+}
+.skra-stig{
+    width: 32.2rem;
+    height: 4.3rem;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: #F0C3F0;
+    border-radius: 999.9rem;
+    margin-top: 1rem;
+}
+.skra-stig p {
+    font-size: 2rem;
+}
+.spila-aftur{
+    width: 32.2rem;
+    height: 4.3rem;
+    border: .2rem solid #F0C3F0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    border-radius: 999.9rem;
+}
+.spila-aftur p {
+    font-size: 2rem;
+}
+.finna-nyjan-leik{
+    width: 32.2rem;
+    height: 4.3rem;
+    border: .2rem solid #F0C3F0;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;   
+    border-radius: 999.9rem;
+}
+.finna-nyjan-leik p {
+    font-size: 2rem;
+}
