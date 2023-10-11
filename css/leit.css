@@ -37,18 +37,33 @@
     text-align: center;
 }
 
-/* text box */
+.wrapper {
+    position: relative;
+    display: flex;
+}
+
+.search-icon {
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
+    width: 1.4rem;
+}
+
+.search {
+    border: .1rem solid black;
+    border-radius: 9rem;
+    height: 4.3rem;
+    width: 100%;
+}
+
+/* search box
 #site-search {
     margin-top: 2.2rem;
     width: 32.2rem;
     height: 4.3rem;
     font-size: 1.6rem;
     border-color: black;
-}
-
-.inputIcon {
-    position: relative;
-}
+}*/
 
 /*line under text box*/
 .line {
@@ -116,7 +131,7 @@
 /* search button */
 .button {
     margin-top: 4.5rem;
-    width: 32.2rem;
+    width: 100%;
     height: 4.3rem;
     border-radius: 9999rem;
     font-size: 2rem;
