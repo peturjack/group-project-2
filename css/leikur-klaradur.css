@@ -32,9 +32,10 @@
 /*placeholder box for the confetti video*/
 .confetti{
     width: 100%;
-    height: 34.5rem;
-    margin-top: 0.5rem;
+    height: 40rem;
+    margin-top: 10rem;
     border: .2rem solid #F0C3F0;
+    border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center; 
@@ -49,6 +50,12 @@
     
 }
 /*button to register points*/
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .skra-stig{
     width: 32.2rem;
     height: 4.3rem;
@@ -58,7 +65,7 @@
     align-items: center; 
     background-color: #F0C3F0;
     border-radius: 999.9rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
 /*font size for text inside the button*/
 .skra-stig p {

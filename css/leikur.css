@@ -43,7 +43,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 /*font size for text inside the button*/
 .leikur p {
@@ -60,9 +60,14 @@
     background-color: #F0C3F0;
     font-size: 2rem;
     border-radius: 999.9rem;
-    margin-top: 1.5rem;
+    margin-top: 2.9rem;
 }
 /*font size for text inside the button*/
 .klara-leik p{
     font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }

@@ -9,7 +9,8 @@ The group worked very well together and taught each other many new things. One o
 ## No special requirements
 
 
-## Installation
+## No installation required
 
 
-## Configuration
+## No configuration needed
+
