@@ -2,33 +2,18 @@
     height: 100%;
     padding: 0 3.4rem;
 }
-/* Header */
-header {
-    margin-top: 3rem;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
-    display: flex;
-    justify-content: space-between;
-}
-/* Logo */
-.logo {
-   position: relative;
-    
-}
-/* Menu */
-.menu {
-    position: relative;
-    margin-top: 3rem;
-    cursor: pointer;
-    align-items: center;
-    justify-content: space-between;
-}
+
 /* Container for title and arrows */
 .container-byrjendur-arrow{
     display: flex;
     align-items: center;
     margin: 4rem;
    justify-content: space-between;
+}
+
+.header {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
 }
 
 /* Title */
