@@ -8,20 +8,32 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Leit</title>
+    <title>Skólavefurinn.is</title>
+        <link rel="icon" href="../photos/logo-title.svg" type="image/x-icon">
 </head>
 <body>
     <div class="leitPage">
         <!--header-->
         <div class="header">
-            <img class="logo" src="../photos/logo.png" alt="skolavefurinn.is logo">
-            <img class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+            <a href="front-page.html"><img class="logo" src="../photos/logo.png" alt="skolavefurinn.is logo"></a>
+                <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+            </div>
+        <div id="dropdown" class="dropdown-menu">
+            <nav>
+                <ul>
+                    <li><a href="leit.html">Leit</a></li>
+                    <li><a href="#">Um okkur</a></li>
+                    <li><a href="#">Áskriftir</a></li>
+                    <li><a href="#">Hafa samband</a></li>
+                    <li><a href="#">Hjálp</a></li>
+                </ul>
+            </nav>
         </div>
         <!--heading-->
         <p class="heading">Leit</p>
         <!--search box-->
         <div class="wrapper">
-            <img class="search-icon" src="../icons/magnifying_glass.svg"/>
+            <img class="search-icon" src="../icons/magnifying_glass.svg" alt="magnifying glass"/>
             <input class="search" id="search" placeholder="    Hverju ertu að leita að?" type="text" >
           </div>
         <hr class="line">
@@ -135,5 +147,6 @@
         <!-- search button-->
         <button id="searchButton" class="button">Leita</button>
     </div>
+    <script src="../menu.js"></script>
 </body>
 </html>

@@ -1,54 +1,37 @@
 .page2 {
     height: 100%;
     padding: 0 3.4rem;
-    padding: 0;
-    margin: 0;
 }
 
-
-header {
-    margin-top: 3rem;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
-    display: flex;
-    justify-content: space-between;
-}
-.logo {
-   position: relative;
-    
-}
-.menu {
-    position: relative;
-    margin-top: 3rem;
-    cursor: pointer;
-    align-items: center;
-    justify-content: space-between;
-}
 .container-byrjendur-arrow{
     display: flex;
     align-items: center;
     margin: 4rem;
    justify-content: space-between;
 }
+
+.header {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+}
+
 .center-title-h2 {
     font-size: 3.5rem;
     align-items: center;
     justify-content: space-between;
     font-weight: normal;
-
-
 }
+
 .left-element-arrow {
     position: relative;
     align-items: right;
-   
     cursor: pointer;
 }
+
 .right-element-null {
     opacity: 100%;
-   
-
 }
+
 .page2 {
     display: grid ;
     grid-template-areas:
@@ -69,15 +52,15 @@ header {
     padding: 0 3.4rem;
     margin-bottom: 3.9rem;
 }
+
 .byrjendur-title {
     grid-area: top-box;
     border-bottom: solid 0.2rem #cd36cd;
     display: flex;
     align-items: end;
     font-size:3.5rem;
-  
-   
 }
+
 .box-left{
     grid-area: left-box;
     height: 11rem;
@@ -93,6 +76,7 @@ header {
     font-size:1.6rem;
     text-align: center;
 }
+
 .box-right {
     grid-area: right-box;
     border: solid 0.2rem #cd36cd;
@@ -103,10 +87,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right p {
     font-size:1.6rem;
     text-align: center;
 }
+
 .box-left-2 {
     grid-area: left-box-2;
     height: 11rem;
@@ -117,10 +103,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-2 p {
     font-size:1.6rem;
     text-align: center;
 }
+
 .box-right-2 {
     grid-area: right-box-2;
     height: 11rem;
@@ -131,10 +119,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-2 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-3 {
     grid-area: left-box-3;
     height: 11rem;
@@ -144,8 +134,8 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .box-left-3 p {
     font-size:1.6rem;
     text-align: center;
@@ -160,12 +150,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .box-right-3 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-4 {
     grid-area: left-box-4;
     height: 11rem;
@@ -175,12 +166,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .box-left-4 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-right-4 {
     grid-area: right-box-4;
     height: 11rem;
@@ -190,12 +182,13 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 .box-right-4 p {
     font-size:1.6rem;
     text-align: center;
 }
+
 .box-left-5 {
     grid-area: left-box-5;
     height: 11rem;
@@ -206,6 +199,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-5 p {
     font-size:1.6rem;
     text-align:center;
@@ -221,10 +215,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-5 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-6 {
     grid-area: left-box-6;
     height: 11rem;
@@ -235,6 +231,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-6 p {
     font-size:1.6rem;
     text-align:center;
@@ -250,10 +247,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-6 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-7 {
     grid-area: left-box-7;
     height: 11rem;
@@ -264,6 +263,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-7 p {
     font-size:1.6rem;
     text-align:center;
@@ -279,10 +279,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-7 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-8 {
     grid-area: left-box-8;
     height: 11rem;
@@ -293,6 +295,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-8 p {
     font-size:1.6rem;
     text-align:center;
@@ -308,10 +311,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-8 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-9 {
     grid-area: left-box-9;
     height: 11rem;
@@ -322,6 +327,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-9 p {
     font-size:1.6rem;
     text-align:center;
@@ -337,10 +343,12 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-9 p {
     font-size:1.6rem;
     text-align:center;
 }
+
 .box-left-10 {
     grid-area: left-box-10;
     height: 11rem;
@@ -351,6 +359,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-left-10 p {
     font-size:1.6rem;
     text-align:center;
@@ -366,6 +375,7 @@ header {
     justify-content: center;
     align-items: center;
 }
+
 .box-right-10 p {
     font-size:1.6rem;
     text-align:center;

@@ -3,26 +3,6 @@
     margin-right: 3.4rem;
 }
 
-/*header*/
-.header {
-    height: 9.3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
-}
-
-.menu {
-    position: relative;
-    align-items: right;
-    margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
-}
-
 /*search box*/
 .heading {
     margin-top: 2.4rem;
