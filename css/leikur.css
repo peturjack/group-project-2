@@ -2,8 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 .header {
     height: 9.3rem;
     display: flex;
@@ -46,11 +44,12 @@
     justify-content: center;
     align-items: center;
     border-radius: 1rem;
-    margin-top: 3rem;
+    margin-top: 4rem;
 }
 .leikur p {
     font-size: 3.2rem;
 }
+
 .klara-leik{
    width: 32.2rem;
     height: 4.3rem;
@@ -61,8 +60,14 @@
     background-color: #F0C3F0;
     font-size: 2rem;
     border-radius: 999.9rem;
-    margin-top: 1.5rem;
+    margin-top: 2.9rem;
 }
+
 .klara-leik p{
     font-size: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
