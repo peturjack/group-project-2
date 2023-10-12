@@ -28,6 +28,7 @@
     margin-bottom: 2.2rem;
 }
 
+/*animated logo*/
 .logoAnimation {
     height: 9.6rem;
     overflow: hidden;
@@ -42,6 +43,7 @@
     cursor: pointer;
 }
 
+/* dropdown menu*/
 .dropdown-menu {
     position: absolute;
     right: 0;
