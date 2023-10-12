@@ -3,7 +3,7 @@
     margin-right: 3.4rem;
 }
 
-/*search box*/
+/*Leit*/
 .heading {
     margin-top: 2.4rem;
     font-family: 'Roboto', sans-serif;
@@ -12,6 +12,7 @@
     font-weight: lighter;
 }
 
+/*search box*/
 .wrapper {
     margin-top: 2.2rem;
     position: relative;
