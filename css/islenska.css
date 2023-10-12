@@ -1,35 +1,25 @@
+/*this coede effects all*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color:black;
-}
-
+/*styling for the header*/
 .header {
-    height: 9.3rem;
+    height: 10rem;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 3.5rem;
+    align-items: flex-end;
+    padding-bottom: 2.5rem;
+    margin-bottom: 2.5rem;
 }
-
-.logo {
-    position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
-}
-
+/*styling for the hamburger menu*/
 .menu {
-    position: relative;
     align-items: right;
-    margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
     cursor: pointer;
 }
-
+/*stling for the fropdowm menu witch starts at opacity 0*/
 .dropdown-menu {
     position: absolute;
     right: 0;
@@ -40,42 +30,49 @@ a{
     padding: 2rem;
     opacity: 0;
     transition: opacity 300ms ease-in-out;
+    z-index: 999;
 }
 
-
+/*this is called in from the menu.ts so when you click the hamburger menu it will go to opacity 1*/
 .dropdown-open {
     opacity: 1;
 }
-
+/*styling for all the a tags inside of the dropdown menu*/
 .dropdown-menu a {
     font-size: 2.2rem;
     color: black;
-    line-height: 2;
-    
+    line-height: 2; 
+    transition: 0.3s ease;
 }
-
+/*hover effects for all the a tags in the dropdown menu*/
+.dropdown-menu nav ul li a:hover {
+    color: #ff9933;
+}
+/*active effects so when you click the mouse on all the a tags in the dropdown menu*/
+.dropdown-menu nav ul li a:active {
+    color: #ff99338e;
+}
+/*page1 div height the whole screen and left and right padding 3.4rem or 34px*/
 .page1 {
     height: 100vh;
     padding: 0 3.4rem;
 }
-
-
+/*container for the arrow left logo and for the h2 íslenska*/
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
+/*styling for the íslenska letters*/
 .center-element-h2 h2 {
-    font-size: 3.2rem;
+    font-size: 4rem;
+    font-weight: normal;
 }
-
+/*in the container i have three elements and this one is all the way to the right but i want to hide it*/
 .right-element-null {
     opacity: 0%;
 }
-
-/* byrjendur grid */
-
+/* byrjendur grid for the top box and the left side and the right side boxes */
 .byrjendur-grid {
     display: grid;
     grid-template-areas:
@@ -85,12 +82,11 @@ a{
     grid-gap: 10px;
     margin-bottom: 5rem;
 }
-
-
+/* a div for an image wich will pop at 8rem or 800px screen size*/
 .left-side-image {
     display: none;
 }
-
+/*media query and at 800px or 8rem everything inside the media query will happen*/
 @media (min-width: 800px) {
     .all-around-the-world {
         display: flex;
@@ -121,7 +117,7 @@ a{
         margin-bottom: 0;
     }  
 }
-
+/*the beginner level top box of the grid styling*/
 .toughness-level {
     grid-area: top-box;
     height: 5rem;
@@ -129,13 +125,17 @@ a{
     display: flex;
     align-items: end;
 }
-
+/*margin bottom on the last boxes in lengra komnir*/
+.mb0 {
+    margin-bottom: 0;
+}  
+/*the h3 text in the byrjendur top box*/
 .toughness-level h3 {
     font-size: 2.8rem;
     margin-bottom: 0.2rem;
     font-weight: normal;
 }
-
+/*styling in the left box*/
 .box-left {
     grid-area: left-box;
     height: 11rem;
@@ -148,7 +148,7 @@ a{
     cursor: pointer;
     transition: 0.5s ease;
 }
-
+/*styling in the right box*/
 .box-right {
     grid-area: right-box;
     height: 11rem;
@@ -161,17 +161,17 @@ a{
     cursor: pointer;
     transition: 0.5s ease;
 }
-
+/*styling the paragraph inside the left*/
 .box-left p {
     font-size: 1.6rem;
     text-align: center;
 }
-
+/*styling the paragraph in the right side box*/
 .box-right p {
     font-size: 1.6rem;
     text-align: center;
 }
-
+/*media queries that will only happen if your screen size is 1460px*/
 @media (min-width: 1460px){
 
     .box-left {
@@ -200,29 +200,29 @@ a{
     }
 }
 
-
+/*box left happens only if you hover over it with a mouse*/
 .box-left:hover {
     transform: scale(1.05);
 }
-
+/*box left happens only if you hover over it with a mouse*/
 .box-right:hover {
     transform: scale(1.05);
 }
-
+/*targeting the miðstig box to change the color*/
 .orange-color {
     border: solid 0.2rem #ff9933;
     background-color: #fffaf5;
 }
-
+/*targeting the top box and border bottom and change it to orange color*/
 .orange-color-line {
     border-bottom: solid 0.2rem #ff9933;
 }
-
+/*changing the lengra komnir color to blue*/
 .blue-color {
     background-color: #f5fcfa;
     border: solid 0.2rem #3399cc;
 }
-
+/*changing the border bottom color of the top box to blue*/
 .blue-color-line {
     border-bottom: solid 0.2rem #3399cc;
 }
