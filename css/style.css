@@ -53,8 +53,8 @@
     opacity: 0;
     transition: opacity 300ms ease-in-out;
     z-index: 2;
-
 }
+
 .dropdown-open {
     opacity: 1;
 }
