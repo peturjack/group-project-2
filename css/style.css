@@ -4,5 +4,64 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+}
 
+/*both logo and menu*/
+.header {
+    height: 9.3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+/*logo*/
+.logo {
+    margin-top: 2.6rem;
+    margin-bottom: 1.5rem;
+}
+
+/*hamburger menu*/
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+}
+
+/*animated logo*/
+.logoAnimation {
+    height: 9.6rem;
+    overflow: hidden;
+}
+
+.menu {
+    position: relative;
+    align-items: right;
+    margin-top: 5.1rem;
+    margin-bottom: 2.2rem;
+    cursor: pointer;
+}
+
+/* dropdown menu*/
+.dropdown-menu {
+    position: absolute;
+    right: 0;
+    top: 93px;
+    background-color: white;
+    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
+    border-radius: 0.8rem;
+    padding: 2rem;
+    opacity: 0;
+    transition: opacity 300ms ease-in-out;
+    z-index: 2;
+}
+
+.dropdown-open {
+    opacity: 1;
+}
+
+.dropdown-menu a {
+    font-size: 2.2rem;
+    color: black;
+    line-height: 2;
+    
 }

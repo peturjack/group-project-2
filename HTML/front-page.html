@@ -1,24 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/frontpage.css">
-
-    <title>Skólavefurinn</title>
-
+    <link rel="stylesheet" href="../css/front-page.css">
+    <title>Skólavefurinn.is</title>
+        <link rel="icon" href="../photos/logo-title.svg" type="image/x-icon">
 </head>
 
 <body>
     <!-- Header -->
     <div class="header">
         <div class="logoAnimation">
-            <img class="logoImg" src="../photos/logo_animated.png">
+            <a href="front-page.html"><img src="../photos/logo_animated.png" alt="skolavefurinn.is logo"></a>
         </div>
-        <img class="menu" src="../icons/hamburger_menu.svg">
+        <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+    </div>
+    <!--dropdown menu-->
+        <div id="dropdown" class="dropdown-menu">
+        <nav>
+            <ul>
+                <li><a href="leit.html">Leit</a></li>
+                <li><a href="#">Um okkur</a></li>
+                <li><a href="#">Áskriftir</a></li>
+                <li><a href="#">Hafa samband</a></li>
+                <li><a href="#">Hjálp</a></li>
+            </ul>
+        </nav>
     </div>
 <!-- H1 but just for the desktop version, for mobile version is display-none in CSS -->
     <h1 class="desktop"><span class="light">Velkominn á </span>Skólavefinn!</h1>
@@ -26,13 +35,13 @@
 <!-- Grid container -->
 <div class="grid-container">
 <!-- "Background" - photo on the front page and class image to increase the dimension. -->
-    <div class="background"> <img src="../photos/pic-frontpage-small.png" alt="Background" class="image"></div>
+    <div class="background"> <img src="../photos/pic-frontpage-small.png" alt="photo portraying a stack of books next to a container of colourful pens sitting on a brown table. On top of the stack of books is a rubik's cube." class="image"></div>
 
 <!-- UL menu with the buttons -->
     <div class="Buttons">
     <ul>
-        <li class="Leita"><button class="button-frontpage">Leita</button></li>
-        <li class="Íslenska"><a href="islenska-page.html"><button class="button-frontpage">Íslenska</button></a></li>
+        <li class="Leita"><a href="leit.html"><button class="button-frontpage">Leita</button></a></li>
+        <li class="Íslenska"><a href="islenska.html"><button class="button-frontpage">Íslenska</button></a></li>
         <li class="Stærðfræði"><button class="button-frontpage">Stærðfræði</button></li>
         <li class="Enska"><button class="button-frontpage">Enska</button></li>
         <li class="Danska"><button class="button-frontpage">Danska</button></li>
@@ -41,8 +50,8 @@
     </div>
 </div>    
 </div>
-<script src="../menu.js"></script>
 <!--script to connect with JS -->
-<script src="../main.js"></script>
+<script src="../TypeScript/menu.js"></script>
+<script src="../TypeScript/logo.js"></script>
 </body>
 </html>
