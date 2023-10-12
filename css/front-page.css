@@ -3,10 +3,8 @@
     display: none;
 }
 
-/* Style the header section */
-.header {
-    display: flex;
-    justify-content: space-between;  /* Space between header elements */
+.menu {
+    margin-right: 3.4rem;
 }
 
 /* Style the animated logo */
@@ -16,15 +14,6 @@
     margin-left: 1rem;
     height: 7.3rem;
     overflow: hidden;  /* Hide overflowing content */
-}
-
-/* Style the menu icon */
-.menu {
-    position: relative;
-    margin-top: 5.1rem;
-    margin-right: 3.4rem;
-    width: 3rem;
-    height: 2rem;
 }
 
 /* Style the background image container */

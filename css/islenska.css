@@ -117,9 +117,6 @@ a{
         height: 100%;
     }
 
-     .mb0 {
-        margin-bottom: 0;
-    }  
 }
 
 .toughness-level {
@@ -226,3 +223,15 @@ a{
 .blue-color-line {
     border-bottom: solid 0.2rem #3399cc;
 }
+
+/*sheep*/
+.sheep {
+    position: absolute;
+    bottom: 0;
+    width: 6rem;
+    height: 4.5rem;
+}
+
+.mb0 {
+    margin-bottom: 0;
+}  

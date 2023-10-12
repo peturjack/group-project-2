@@ -3,27 +3,7 @@
     margin-right: 3.4rem;
 }
 
-/*header*/
-.header {
-    height: 9.3rem;
-    display: flex;
-    justify-content: space-between;
-}
-
-.logo {
-    position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
-}
-
-.menu {
-    position: relative;
-    align-items: right;
-    margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
-}
-
-/*leit*/
+/*Leit*/
 .heading {
     margin-top: 2.4rem;
     font-family: 'Roboto', sans-serif;
@@ -32,6 +12,7 @@
     font-weight: lighter;
 }
 
+/*search box*/
 .wrapper {
     margin-top: 2.2rem;
     position: relative;
@@ -55,7 +36,7 @@
 
 /*line under text box*/
 .line {
-    margin-top: 3.3rem;
+    margin-top: 3rem;
     height: .3rem;
     background-color: #66CC0030;
     border: none;
@@ -63,7 +44,7 @@
 
 /* categories */
 .catName {
-    margin-top: 4.5rem;
+    margin-top: 3rem;
     display: flex;
     justify-content: space-between;
     padding-bottom: .4rem;
@@ -76,7 +57,7 @@
 }
 
 .tegundWord {
-    margin-right: 3.6rem;
+    margin-right: 4rem;
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 2.8rem;
@@ -113,7 +94,7 @@
 
 /* category items */
 .catItems {
-    margin-top: 1.5rem;
+    margin-top: .7rem;
     display: flex;
     justify-content: space-between;
 }
@@ -126,11 +107,11 @@ p {
 }
 
 .tegundItems {
-    width: 12rem;
+    width: 13.3rem;
 }
 
 .timaItems {
-    width: 12rem;
+    width: 13.3rem;
 }
 
 /* check boxes*/
@@ -145,7 +126,7 @@ p {
 
 /* search button */
 .button {
-    margin-top: 4.5rem;
+    margin-top: 5rem;
     width: 100%;
     height: 4.3rem;
     border-radius: 9999rem;

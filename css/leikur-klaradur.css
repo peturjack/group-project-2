@@ -2,20 +2,20 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-
+/*header*/
 .header {
     height: 9.3rem;
     display: flex;
     justify-content: space-between;
     margin-bottom: 1.5rem;
 }
-
+/*logo*/
 .logo {
     position: relative;
     margin-top: 2.6rem;
     margin-bottom: 1.5rem;
 }
-
+/*drop down menu*/
 .menu {
     position: relative;
     align-items: right;
@@ -23,23 +23,25 @@
     margin-bottom: 2.2rem;
     cursor: pointer;
 }
-
+/*padding for the page to keep everything aligned*/
 .leikur-klaradur-page-1 {
     width: 100%;
     height: 100vh;
     padding: 0 3.4rem;
 }
-
+/*placeholder box for the confetti video*/
 .confetti{
     width: 100%;
-    height: 34.5rem;
-    margin-top: 0.5rem;
+    height: 40rem;
+    margin-top: 10rem;
     border: .2rem solid #F0C3F0;
+    border-radius: 1rem;
     display: flex;
     justify-content: center;
     align-items: center; 
     flex-direction: column;
 }
+/*text on top of the confetti congratulating for finishing the game*/
 .confetti h1 {
     font-size: 3.2rem;
     text-align: center;
@@ -47,7 +49,12 @@
     font-weight: 500;
     
 }
+/*button to register points*/
 
+a {
+    color: black;
+    text-decoration: none;
+}
 
 .skra-stig{
     width: 32.2rem;
@@ -58,11 +65,13 @@
     align-items: center; 
     background-color: #F0C3F0;
     border-radius: 999.9rem;
-    margin-top: 1.5rem;
+    margin-top: 3rem;
 }
+/*font size for text inside the button*/
 .skra-stig p {
     font-size: 2rem;
 }
+/*button to play same game again*/
 .spila-aftur{
     width: 32.2rem;
     height: 4.3rem;
@@ -74,9 +83,11 @@
     margin-top: 2rem;
     border-radius: 999.9rem;
 }
+/*font size for text inside the button*/
 .spila-aftur p {
     font-size: 2rem;
 }
+/*button to go back to go to "byrjendur"page to find a new game*/
 .finna-nyjan-leik{
     width: 32.2rem;
     height: 4.3rem;
@@ -88,6 +99,7 @@
     margin-top: 2rem;   
     border-radius: 999.9rem;
 }
+/*font size for text inside the button*/
 .finna-nyjan-leik p {
     font-size: 2rem;
 }
