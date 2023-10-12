@@ -53,6 +53,11 @@
     margin-bottom: 3.9rem;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+}
+
 .byrjendur-title {
     grid-area: top-box;
     border-bottom: solid 0.2rem #cd36cd;
@@ -138,9 +143,9 @@
 
 .box-left-3 p {
     font-size:1.6rem;
-    text-align: center;
-    
+    text-align: center;    
 }
+
 .box-right-3 {
     grid-area: right-box-3;
     height: 11rem;
