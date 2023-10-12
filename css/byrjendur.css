@@ -2,36 +2,52 @@
     height: 100%;
     padding: 0 3.4rem;
 }
-
+/* Header */
+header {
+    margin-top: 3rem;
+    padding-left: 3.4rem;
+    padding-right: 3.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+/* Logo */
+.logo {
+   position: relative;
+    
+}
+/* Menu */
+.menu {
+    position: relative;
+    margin-top: 3rem;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Container for title and arrows */
 .container-byrjendur-arrow{
     display: flex;
     align-items: center;
     margin: 4rem;
    justify-content: space-between;
 }
-
-.header {
-    margin-left: 3.4rem;
-    margin-right: 3.4rem;
-}
-
+/* Title */
 .center-title-h2 {
     font-size: 3.5rem;
     align-items: center;
     justify-content: space-between;
     font-weight: normal;
 }
-
+/* Left arrow */
 .left-element-arrow {
     position: relative;
     align-items: right;
     cursor: pointer;
 }
-
+/* Right arrow (corrected opacity property) */
 .right-element-null {
     opacity: 100%;
 }
-
+/* Page 2 style all boxes and text */
 .page2 {
     display: grid ;
     grid-template-areas:
@@ -52,12 +68,7 @@
     padding: 0 3.4rem;
     margin-bottom: 3.9rem;
 }
-
-a {
-    color: black;
-    text-decoration: none;
-}
-
+/* Title in top box with border */
 .byrjendur-title {
     grid-area: top-box;
     border-bottom: solid 0.2rem #cd36cd;
@@ -65,7 +76,7 @@ a {
     align-items: end;
     font-size:3.5rem;
 }
-
+/* Box styling */
 .box-left{
     grid-area: left-box;
     height: 11rem;
@@ -76,12 +87,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left p {
     font-size:1.6rem;
     text-align: center;
 }
-
+/* Box styling */
 .box-right {
     grid-area: right-box;
     border: solid 0.2rem #cd36cd;
@@ -91,13 +102,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+   }
+   /* Box text style */
 .box-right p {
     font-size:1.6rem;
     text-align: center;
 }
-
+/* Box styling */
 .box-left-2 {
     grid-area: left-box-2;
     height: 11rem;
@@ -108,12 +119,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-2 p {
     font-size:1.6rem;
     text-align: center;
 }
-
+/* Box styling */
 .box-right-2 {
     grid-area: right-box-2;
     height: 11rem;
@@ -123,13 +134,14 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+  
 }
-
+/* Box text style */
 .box-right-2 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-3 {
     grid-area: left-box-3;
     height: 11rem;
@@ -140,12 +152,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-3 p {
     font-size:1.6rem;
-    text-align: center;    
+    text-align: center;
 }
-
+/* Box styling */
 .box-right-3 {
     grid-area: right-box-3;
     height: 11rem;
@@ -156,12 +168,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-3 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-4 {
     grid-area: left-box-4;
     height: 11rem;
@@ -172,12 +184,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-4 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-4 {
     grid-area: right-box-4;
     height: 11rem;
@@ -187,13 +199,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} 
+/* Box text style */
 .box-right-4 p {
     font-size:1.6rem;
     text-align: center;
 }
-
+/* Box styling */
 .box-left-5 {
     grid-area: left-box-5;
     height: 11rem;
@@ -203,13 +215,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+ }
+ /* Box text style */
 .box-left-5 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-5 {
     grid-area: right-box-5;
     height: 11rem;
@@ -220,12 +232,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-5 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-6 {
     grid-area: left-box-6;
     height: 11rem;
@@ -236,12 +248,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-6 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-6 {
     grid-area: right-box-6;
     height: 11rem;
@@ -252,12 +264,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-6 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-7 {
     grid-area: left-box-7;
     height: 11rem;
@@ -268,12 +280,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-7 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-7 {
     grid-area: right-box-7;
     height: 11rem;
@@ -284,12 +296,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-7 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-8 {
     grid-area: left-box-8;
     height: 11rem;
@@ -300,12 +312,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-8 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-8 {
     grid-area: right-box-8;
     height: 11rem;
@@ -315,13 +327,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+ }
+ /* Box text style */
 .box-right-8 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-9 {
     grid-area: left-box-9;
     height: 11rem;
@@ -332,12 +344,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-left-9 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-9 {
     grid-area: right-box-9;
     height: 11rem;
@@ -348,12 +360,12 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-9 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-left-10 {
     grid-area: left-box-10;
     height: 11rem;
@@ -363,13 +375,13 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
+} 
+/* Box text style */
 .box-left-10 p {
     font-size:1.6rem;
     text-align:center;
 }
-
+/* Box styling */
 .box-right-10 {
     grid-area: right-box-10;
     height: 11rem;
@@ -380,8 +392,9 @@ a {
     justify-content: center;
     align-items: center;
 }
-
+/* Box text style */
 .box-right-10 p {
     font-size:1.6rem;
     text-align:center;
 }
+ 
