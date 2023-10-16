@@ -1,19 +1,42 @@
-* {
-    font-family: Arial, Arial, Helvetica, sans-serif, sans-serif;
-    font-size: 62.5%;
-}
-.header {
-    height: 9.3rem;
-}
 .page2 {
-    height: 100vh;
+    height: 100%;
     padding: 0 3.4rem;
 }
-.byrjendur-title h2 {
-    font-size: 2.4rem;
 
+/* Container for title and arrows */
+.container-byrjendur-arrow{
+    display: flex;
+    align-items: center;
+    margin: 4rem;
+   justify-content: space-between;
 }
 
+.header {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+}
+
+/* Title */
+.center-title-h2 {
+    font-size: 3.5rem;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: normal;
+}
+
+/* Left arrow */
+.left-element-arrow {
+    position: relative;
+    align-items: right;
+    cursor: pointer;
+}
+
+/* Right arrow (corrected opacity property) */
+.right-element-null {
+    opacity: 100%;
+}
+
+/* Page 2 style all boxes and text */
 .page2 {
     display: grid ;
     grid-template-areas:
@@ -21,18 +44,30 @@
     "left-box right-box" 
     "left-box-2 right-box-2"
     "left-box-3 right-box-3"
-    "left-box-4 right-box-4";
+    "left-box-4 right-box-4"
+    "left-box-5 right-box-5"
+    "left-box-6 right-box-6"
+    "left-box-7 right-box-7"
+    "left-box-8 right-box-8"
+    "left-box-9 right-box-9"
+    "left-box-10 right-box-10";
     grid-template-columns: 1fr 1fr;
-    grid-gap: 10px;
-    margin-top: 5rem;
+    grid-gap: 2rem;
+    margin-top: 1rem;
     padding: 0 3.4rem;
+    margin-bottom: 3.9rem;
 }
+
+/* Title in top box with border */
 .byrjendur-title {
     grid-area: top-box;
     border-bottom: solid 0.2rem #cd36cd;
     display: flex;
     align-items: end;
+    font-size:3.5rem;
 }
+
+/* Box styling */
 .box-left{
     grid-area: left-box;
     height: 11rem;
@@ -40,13 +75,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
+/* Box text style */
 .box-left p {
     font-size:1.6rem;
     text-align: center;
 }
+
+/* Box styling */
 .box-right {
     grid-area: right-box;
     border: solid 0.2rem #cd36cd;
@@ -54,12 +93,17 @@
     height: 11rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+   /* Box text style */
 .box-right p {
     font-size:1.6rem;
     text-align: center;
 }
+
+/* Box styling */
 .box-left-2 {
     grid-area: left-box-2;
     height: 11rem;
@@ -67,12 +111,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+/* Box text style */
 .box-left-2 p {
     font-size:1.6rem;
     text-align: center;
 }
+
+/* Box styling */
 .box-right-2 {
     grid-area: right-box-2;
     height: 11rem;
@@ -80,12 +129,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
 }
+
+/* Box text style */
 .box-right-2 p {
     font-size:1.6rem;
     text-align:center;
 }
+
+/* Box styling */
 .box-left-3 {
     grid-area: left-box-3;
     height: 11rem;
@@ -93,14 +147,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
+
+/* Box text style */
 .box-left-3 p {
     font-size:1.6rem;
     text-align: center;
-    
 }
+
+/* Box styling */
 .box-right-3 {
     grid-area: right-box-3;
     height: 11rem;
@@ -108,13 +165,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
+
+/* Box text style */
 .box-right-3 p {
     font-size:1.6rem;
     text-align:center;
 }
+
+/* Box styling */
 .box-left-4 {
     grid-area: left-box-4;
     height: 11rem;
@@ -122,13 +183,17 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
+
+/* Box text style */
 .box-left-4 p {
     font-size:1.6rem;
     text-align:center;
 }
+
+/* Box styling */
 .box-right-4 {
     grid-area: right-box-4;
     height: 11rem;
@@ -136,11 +201,228 @@
     border-radius: 0.8rem;
     background-color: #fcf5fc;
     display: flex;
+    justify-content: center;
     align-items: center;
-
 }
+
+/* Box text style */
 .box-right-4 p {
+    font-size:1.6rem;
+    text-align: center;
+}
+
+/* Box styling */
+.box-left-5 {
+    grid-area: left-box-5;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-left-5 p {
     font-size:1.6rem;
     text-align:center;
 }
-    
+
+/* Box styling */
+.box-right-5 {
+    grid-area: right-box-5;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-5 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-left-6 {
+    grid-area: left-box-6;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-left-6 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-right-6 {
+    grid-area: right-box-6;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-6 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-left-7 {
+    grid-area: left-box-7;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-left-7 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-right-7 {
+    grid-area: right-box-7;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-7 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-left-8 {
+    grid-area: left-box-8;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-left-8 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-right-8 {
+    grid-area: right-box-8;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-8 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-left-9 {
+    grid-area: left-box-9;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-left-9 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-right-9 {
+    grid-area: right-box-9;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-9 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-left-10 {
+    grid-area: left-box-10;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+/* Box text style */
+.box-left-10 p {
+    font-size:1.6rem;
+    text-align:center;
+}
+
+/* Box styling */
+.box-right-10 {
+    grid-area: right-box-10;
+    height: 11rem;
+    border: solid 0.2rem #cd36cd;
+    border-radius: 0.8rem;
+    background-color: #fcf5fc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Box text style */
+.box-right-10 p {
+    font-size:1.6rem;
+    text-align:center;
+}

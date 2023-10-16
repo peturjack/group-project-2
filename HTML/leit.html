@@ -8,28 +8,42 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Leit</title>
+    <title>Skólavefurinn.is</title>
+        <link rel="icon" href="../photos/logo-title.svg" type="image/x-icon">
 </head>
 <body>
     <div class="leitPage">
         <!--header-->
         <div class="header">
-            <img class="logo" src="../photos/logo.png" alt="skolavefurinn.is logo">
-            <img class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+            <a href="front-page.html"><img class="logo" src="../photos/logo.png" alt="skolavefurinn.is logo"></a>
+                <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg" alt="menu">
+            </div>
+        <!--dropdown menu-->
+        <div id="dropdown" class="dropdown-menu">
+            <nav>
+                <ul>
+                    <li><a href="leit.html">Leit</a></li>
+                    <li><a href="#">Um okkur</a></li>
+                    <li><a href="#">Áskriftir</a></li>
+                    <li><a href="#">Hafa samband</a></li>
+                    <li><a href="#">Hjálp</a></li>
+                </ul>
+            </nav>
         </div>
         <!--heading-->
         <p class="heading">Leit</p>
         <!--search box-->
         <div class="wrapper">
-            <img class="search-icon" src="../icons/magnifying_glass.svg"/>
-            <input class="search" placeholder="   Hverju ertu að leita að?" type="text" >
+            <img class="search-icon" src="../icons/magnifying_glass.svg" alt="magnifying glass"/>
+            <input class="search" id="search" placeholder="    Hverju ertu að leita að?" type="text" >
           </div>
         <hr class="line">
+        <!--search filters-->
         <div class="searchFilters">
             <div class="catName">
                 <!--fag og tegund-->
-                <p class="fagWord">Fag<hr class="fagLine"></p>
-                <p class="tegundWord">Tegund <hr class="tegundLine"></p>
+                <h3 class="fagWord">Fag<hr class="fagLine"/></h3>
+                <h3 class="tegundWord">Tegund <hr class="tegundLine"></h3>
             </div>
             <div class="catItems">
                 <div class="fagItems">
@@ -91,8 +105,8 @@
 
             <div class="catName">
                 <!--erfiðleika stig og tímalengd-->
-                <p class="erfiðleikaWord">Erfiðleika stig <hr class="erfiðleikaLine"></p>
-                <p class="timaWord">Tímalengd <hr class="timaLine"></p>
+                <h3 class="erfiðleikaWord">Erfiðleika stig <hr class="erfiðleikaLine"></h3>
+                <h3 class="timaWord">Tímalengd <hr class="timaLine"></h3>
             </div>
             <div class="catItems">
                 <div class="erfiðleikaItems">
@@ -133,8 +147,9 @@
             </div>
         </div>
         <!-- search button-->
-        <button class="button">Leita</button>
+        <button id="searchButton" class="button">Leita</button>
     </div>
-   <script src="../main.js"></script> 
+    <!--typescript for dropdown menu-->
+    <script src="../TypeScript/menu.js"></script>
 </body>
 </html>
