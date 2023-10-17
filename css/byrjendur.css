@@ -36,6 +36,11 @@ header {
    justify-content: space-between;
 }
 
+.header {
+    margin-left: 3.4rem;
+    margin-right: 3.4rem;
+}
+
 /* Title */
 .center-title-h2 {
     font-size: 3.5rem;
