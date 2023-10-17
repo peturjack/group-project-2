@@ -129,7 +129,7 @@ p {
 }
 
 /* search button */
-.button {
+.leita {
     margin-top: 5rem;
     width: 100%;
     height: 4.3rem;
@@ -137,4 +137,9 @@ p {
     font-size: 2rem;
     background-color: #66CC0030;
     border-color: transparent;
+    cursor: pointer;
+}
+
+.leita:hover {
+    background-color: #66cc0050;
 }
