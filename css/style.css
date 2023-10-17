@@ -8,7 +8,9 @@
     text-decoration: none;
 }
 
-
+body, html {
+    overflow-x: hidden;
+}
 
 /*both logo and menu*/
 .header {
