@@ -43,9 +43,16 @@
             <img class="left-element-arrow"src="../icons/arrow_islenska.svg" alt="left-arrow">
             </a>
             <h2 class="center-title-h2"> Byrjendur </h2>
-                <img class="right-element-null" src="../icons/filter_arrows.svg" alt="right-arrow">
+            <img id="filter-icon" class="right-element-null" src="../icons/filter_arrows.svg" alt="right-arrow">
+            <div id="filter-dropdown" class="filter-dropdown fd-opacity-0">
+                <ul>
+                    <li><a class="filter-border" href="">Vinsælt</a></li>
+                    <li><a class="filter-border" href="">Nýtt</a></li>
+                    <li><a class="filter-border" href="">A-Ö</a></li>
+                </ul>
+            </div>
        </div>
-        <section class="page2">
+        <section id="page2" class="page2">
          <div class="byrjendur-title" >
               <!-- Title for the section -->
                 <p> Lesskilningur og bókmenntir </p> 
@@ -123,5 +130,6 @@
 </div>
 <!--javascript-->
     <script src="../TypeScript/menu.js"></script>
+    <script src="../TypeScript/filter.js"></script>
 </body>
 </html>
