@@ -7,32 +7,11 @@
 .filter-blur {
     filter: blur(0.25rem);
 }
-/* Header */
-header {
-    margin-top: 3rem;
-    padding-left: 3.4rem;
-    padding-right: 3.4rem;
-    display: flex;
-    justify-content: space-between;
-}
-/* Logo */
-.logo {
-   position: relative;
-    
-}
-/* Menu */
-.menu {
-    position: relative;
-    margin-top: 3rem;
-    cursor: pointer;
-    align-items: center;
-    justify-content: space-between;
-}
+
 /* Container for title and arrows */
 .container-byrjendur-arrow{
     display: flex;
     align-items: center;
-    padding: 0 3.4rem;
    justify-content: space-between;
     margin: 4rem;
     justify-content: space-between;
@@ -64,10 +43,9 @@ header {
     position: absolute;
     padding: 0 3.4rem;
     right: -50%;
-    top: 15%;
+    top: 20%;
     z-index: 10;
     transition: right 0.3s ease-in-out;
-    
 }
 
 .filter-dropdown-open {

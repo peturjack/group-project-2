@@ -2,30 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*header*/
-.header {
-    height: 9.3rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1.5rem;
-}
-
-/*logo*/
-.logo {
-    position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
-}
-
-/*drop down menu*/
-.menu {
-    position: relative;
-    align-items: right;
-    margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
-    cursor: pointer;
-}
-
 /*padding for the page to keep everything aligned*/
 .leikur-klaradur-page-1 {
     width: 100%;
@@ -34,10 +10,10 @@
 }
 
 /*placeholder box for the confetti video*/
-.confetti{
+.game{
     width: 100%;
     height: 40rem;
-    margin-top: 10rem;
+    margin-top: 7rem;
     border: .2rem solid #F0C3F0;
     border-radius: 1rem;
     display: flex;
@@ -47,7 +23,7 @@
 }
 
 /*text on top of the confetti congratulating for finishing the game*/
-.confetti h1 {
+.game h1 {
     font-size: 3.2rem;
     text-align: center;
     margin-bottom: 1rem;

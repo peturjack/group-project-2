@@ -8,6 +8,10 @@
     text-decoration: none;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 /*both logo and menu*/
 .header {
     height: 9.3rem;
@@ -33,20 +37,20 @@
 /* dropdown menu*/
 .dropdown-menu {
     position: absolute;
-    right: -50;
-    top: 93px;
+    top: 9.3rem;
     background-color: white;
     box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
     border-radius: 0.8rem;
     padding: 2rem;
-    opacity: 0;
-    transition: opacity 300ms ease-in-out;
+    transition: transform 500ms ease-in-out;
+    transform: translateX(100%);
     z-index: 2;
+    right: 0;
 }
 
 .dropdown-open {
-    opacity: 1;
     right: 0;
+    transform: translateX(0);
 }
 
 .dropdown-menu a {

@@ -207,7 +207,7 @@ function poof(container) {
 }
 
 // Find the container element by class name and start the animation
-var container = document.querySelector('.confetti');
+var container = document.querySelector('.game');
 if (container) {
   poof(container);
 } 
