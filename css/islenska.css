@@ -98,6 +98,7 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.5s ease;
+    padding: 1rem;
 }
 /*styling in the right box*/
 .box-right {
@@ -111,6 +112,7 @@
     justify-content: center;
     cursor: pointer;
     transition: 0.5s ease;
+    padding: 1rem;
 }
 /*styling the paragraph inside the left*/
 .box-left p {
