@@ -20,6 +20,10 @@ body, html {
     margin: 0 3.4rem;
 }
 
+li {
+    list-style: none;
+}
+
 /*logo*/
 .logo {
     margin-top: 1.8rem;
@@ -40,6 +44,9 @@ body, html {
     top: 9.3rem;
     background-color: white;
     box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
+    transition: width 500ms ease-in-out;
+    width: 0px;
+    overflow: hidden;
     border-bottom-left-radius: 0.8rem;
     border-top-left-radius: 0.8rem;
     padding: 2rem;
@@ -51,13 +58,19 @@ body, html {
 
 .dropdown-open {
     right: 0;
-    transform: translateX(0);
+    width: 45%;
+    border-radius: 0.8rem;
+}
+
+.dropdown-menu li {
+    width: 40rem;
 }
 
 .dropdown-menu a {
     font-size: 2.2rem;
     color: black;
     line-height: 2;
+    padding: 3rem;
 }
 
 /*hover effects for all the a tags in the dropdown menu*/
