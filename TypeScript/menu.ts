@@ -18,7 +18,7 @@ function showHide() {
         } else {
             // If the dropdown is closed, open it and change the icon to an "X"
             dropDown.classList.add("dropdown-open");
-            hamburgerMenu.src = "../icons/x.svg"; // Replace with your "X" icon path
+            hamburgerMenu.src = "../icons/X.svg"; // Replace with your "X" icon path
         }
     });
 }
