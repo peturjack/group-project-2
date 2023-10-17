@@ -41,14 +41,21 @@
 
 .filter-dropdown {
     position: absolute;
-    padding: 0 3.4rem;
-    right: -50%;
-    top: 20%;
+    right: 0;
+    width: 0px;
+    margin: 0;
+    padding: 0;
     z-index: 10;
-    transition: right 0.3s ease-in-out;
+    top: 18rem;
+    transition: width 0.5s ease-in-out;
+    overflow: hidden;
+    height: 100%;
 }
 
 .filter-dropdown-open {
+
+    width: 150px;
+    
     right: 0;
 }
 
