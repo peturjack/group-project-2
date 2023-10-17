@@ -44,7 +44,7 @@
 /* dropdown menu*/
 .dropdown-menu {
     position: absolute;
-    right: 0;
+    right: -50;
     top: 93px;
     background-color: white;
     box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
@@ -57,6 +57,7 @@
 
 .dropdown-open {
     opacity: 1;
+    right: 0;
 }
 
 .dropdown-menu a {

@@ -16,7 +16,6 @@
 }
 /*styling for the hamburger menu*/
 .menu {
-    align-items: right;
     cursor: pointer;
 }
 /*stling for the fropdowm menu witch starts at opacity 0*/
