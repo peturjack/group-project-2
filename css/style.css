@@ -47,6 +47,11 @@ li {
     transition: width 500ms ease-in-out;
     width: 0px;
     overflow: hidden;
+    border-bottom-left-radius: 0.8rem;
+    border-top-left-radius: 0.8rem;
+    padding: 2rem;
+    transition: transform 500ms ease-in-out;
+    transform: translateX(100%);
     z-index: 2;
     right: 0;
 }
