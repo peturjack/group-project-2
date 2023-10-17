@@ -53,6 +53,13 @@ a {
     font-size: 2rem;
 }
 
+.buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 /*button to play same game again*/
 .spila-aftur{
     width: 32.2rem;
