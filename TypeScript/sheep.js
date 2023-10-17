@@ -5,7 +5,7 @@ function mySheep() {
     let sheep = document.querySelector(".sheep img");
     let pos = 0;
     clearInterval(id);
-    id = setInterval(frame, 0.2);
+    id = setInterval(frame, 50);
     function frame() {
         if (pos >= 360) {
             clearInterval(id);
@@ -17,7 +17,7 @@ function mySheep() {
             }
             pos++;
             sheep.style.position = "absolute";
-            sheep.style.left = pos + "px";
+            sheep.style.left = pos + "rem";
         }
     }
 }
