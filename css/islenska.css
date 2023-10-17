@@ -8,6 +8,7 @@
 /*page1 div height the whole screen and left and right padding 3.4rem or 34px*/
 .page1 {
     padding: 0 3.4rem;
+    overflow-x: hidden;
 }
 /*container for the arrow left logo and for the h2 íslenska*/
 .container {
