@@ -3,19 +3,6 @@
     display: none;
 }
 
-.menu {
-    margin-right: 3.4rem;
-}
-
-/* Style the animated logo */
-.logoAnimation {
-    position: relative;
-    margin-top: 1.8rem;
-    margin-left: 1rem;
-    height: 7.3rem;
-    overflow: hidden;  /* Hide overflowing content */
-}
-
 /* Style the background image container */
 .background {
     margin-bottom: 2.4rem;

@@ -6,7 +6,7 @@ function mySheep() {
     clearInterval(id);
     id = setInterval(frame, 0.2);
     function frame(){
-        if (pos >= 390) {
+        if (pos >= 360) {
             clearInterval(id);
         } else {
             if (sheep === null) {

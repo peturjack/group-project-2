@@ -2,30 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*header*/
-.header {
-    height: 9.3rem;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 3.5rem;
-}
-
-/*logo*/
-.logo {
-    position: relative;
-    margin-top: 2.6rem;
-    margin-bottom: 1.5rem;
-}
-
-/*drop down menu*/
-.menu {
-    position: relative;
-    align-items: right;
-    margin-top: 5.1rem;
-    margin-bottom: 2.2rem;
-    cursor: pointer;
-}
-
 /*padding for the page to keep everything aligned*/
 .leikur-page-1 {
     width: 100%;

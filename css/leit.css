@@ -31,6 +31,10 @@
     height: 4.3rem;
     width: 100%;
     font-size: 1.6rem;
+    color: black;
+}
+
+.search::placeholder {
     color: #00000050;
 }
 

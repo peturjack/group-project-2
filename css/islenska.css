@@ -1,57 +1,10 @@
-/*this coede effects all*/
+/*this code effects all*/
 * {
     font-family: Arial, Helvetica, sans-serif;
     list-style: none;
     text-decoration: none;
 }
 
-/*styling for the header*/
-.header {
-    height: 10rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
-    padding-bottom: 2.5rem;
-    margin-bottom: 2.5rem;
-}
-/*styling for the hamburger menu*/
-.menu {
-    align-items: right;
-    cursor: pointer;
-}
-/*stling for the fropdowm menu witch starts at opacity 0*/
-.dropdown-menu {
-    position: absolute;
-    right: 0;
-    top: 93px;
-    background-color: white;
-    box-shadow: 0 0.2rem 0.5rem 0 rgba(0, 0, 0, .15);
-    border-radius: 0.8rem;
-    padding: 2rem;
-    opacity: 0;
-    transition: opacity 300ms ease-in-out;
-    z-index: 999;
-}
-
-/*this is called in from the menu.ts so when you click the hamburger menu it will go to opacity 1*/
-.dropdown-open {
-    opacity: 1;
-}
-/*styling for all the a tags inside of the dropdown menu*/
-.dropdown-menu a {
-    font-size: 2.2rem;
-    color: black;
-    line-height: 2; 
-    transition: 0.3s ease;
-}
-/*hover effects for all the a tags in the dropdown menu*/
-.dropdown-menu nav ul li a:hover {
-    color: #ff9933;
-}
-/*active effects so when you click the mouse on all the a tags in the dropdown menu*/
-.dropdown-menu nav ul li a:active {
-    color: #ff99338e;
-}
 /*page1 div height the whole screen and left and right padding 3.4rem or 34px*/
 .page1 {
     height: 100vh;
@@ -62,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 4rem;
 }
 /*styling for the íslenska letters*/
 .center-element-h2 h2 {
@@ -228,8 +182,9 @@
 .sheep {
     position: absolute;
     bottom: 0;
-    width: 6rem;
+    width: 35.6rem;
     height: 4.5rem;
+    overflow: hidden
 }
 
 .mb0 {
