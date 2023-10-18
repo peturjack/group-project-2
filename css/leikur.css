@@ -63,6 +63,7 @@
 /*font size for text inside the button*/
 .klara-leik p {
     font-size: 2rem;
+    font-weight: normal;
 }
 
  /*link text*/
