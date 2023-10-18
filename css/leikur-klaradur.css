@@ -20,6 +20,8 @@
     justify-content: center;
     align-items: center; 
     flex-direction: column;
+    position: relative;
+    overflow: hidden;
 }
 
 /*text on top of the confetti congratulating for finishing the game*/
