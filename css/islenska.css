@@ -18,7 +18,7 @@
     margin-top: 4rem;
 }
 /*styling for the íslenska letters*/
-.center-element h2  {
+.center-element-h2 h2  {
     font-size: 4rem;
     font-weight: normal;
 }
@@ -58,7 +58,7 @@
         align-items: end;
     }
 
-    .left-side-image  {
+    .left-side-image image {
         width: 100%;
         object-fit: cover;
         border-radius: 0.5rem;
