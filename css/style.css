@@ -56,7 +56,6 @@ li {
 .dropdown-open {
     right: 0;
     width: 45%;
-    
 }
 
 .dropdown-menu li {
@@ -74,6 +73,7 @@ li {
 .dropdown-menu nav ul li a:hover {
     color: #ff9933;
 }
+
 /*active effects so when you click the mouse on all the a tags in the dropdown menu*/
 .dropdown-menu nav ul li a:active {
     color: #ff99338e;

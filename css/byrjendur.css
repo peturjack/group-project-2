@@ -3,7 +3,6 @@
     padding: 0 3.4rem;
 }
 
-
 .filter-blur {
     filter: blur(0.25rem);
 }
@@ -38,7 +37,6 @@
     cursor: pointer;
 }
 
-
 .filter-dropdown {
     position: absolute;
     right: 0;
@@ -53,12 +51,9 @@
 }
 
 .filter-dropdown-open {
-
     width: 150px;
-    
     right: 0;
 }
-
 
 .filter-dropdown ul li  {
     list-style: none;
@@ -75,7 +70,6 @@
     text-align: center;
     
 }
-
 
 .filter-border {
     background-color: white;
@@ -151,7 +145,7 @@
     padding: 1rem;
 }
 
-   /* Box text style */
+/* Box text style */
 .box-right p {
     font-size:1.6rem;
     text-align: center;

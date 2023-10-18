@@ -10,6 +10,7 @@
     padding: 0 3.4rem;
     overflow-x: hidden;
 }
+
 /*container for the arrow left logo and for the h2 íslenska*/
 .container {
     display: flex;
@@ -17,15 +18,18 @@
     align-items: center;
     margin-top: 4rem;
 }
+
 /*styling for the íslenska letters*/
 .center-element-h2 h2  {
     font-size: 4rem;
     font-weight: normal;
 }
+
 /*in the container i have three elements and this one is all the way to the right but i want to hide it*/
 .right-element-null {
     opacity: 0%;
 }
+
 /* byrjendur grid for the top box and the left side and the right side boxes */
 .byrjendur-grid {
     display: grid;
@@ -36,10 +40,12 @@
     grid-gap: 10px;
     margin-bottom: 5rem;
 }
+
 /* a div for an image wich will pop at 8rem or 800px screen size*/
 .left-side-image {
     display: none;
 }
+
 /*media query and at 800px or 8rem everything inside the media query will happen*/
 @media (min-width: 800px) {
     .all-around-the-world {
@@ -63,11 +69,11 @@
         object-fit: cover;
         border-radius: 0.5rem;
         object-position: center;
-       
         height: 100%;
     }
 
 }
+
 /*the beginner level top box of the grid styling*/
 .toughness-level {
     grid-area: top-box;
@@ -76,16 +82,19 @@
     display: flex;
     align-items: end;
 }
+
 /*margin bottom on the last boxes in lengra komnir*/
 .mb0 {
     margin-bottom: 0;
-}  
+}
+
 /*the h3 text in the byrjendur top box*/
 .toughness-level h3 {
     font-size: 2.8rem;
     margin-bottom: 0.2rem;
     font-weight: normal;
 }
+
 /*styling in the left box*/
 .box-left {
     grid-area: left-box;
@@ -100,6 +109,7 @@
     transition: 0.5s ease;
     padding: 1rem;
 }
+
 /*styling in the right box*/
 .box-right {
     grid-area: right-box;
@@ -114,19 +124,21 @@
     transition: 0.5s ease;
     padding: 1rem;
 }
+
 /*styling the paragraph inside the left*/
 .box-left p {
     font-size: 1.6rem;
     text-align: center;
 }
+
 /*styling the paragraph in the right side box*/
 .box-right p {
     font-size: 1.6rem;
     text-align: center;
 }
+
 /*media queries that will only happen if your screen size is 1460px*/
 @media (min-width: 1460px){
-
     .box-left {
         grid-area: left-box;
         height: 10vw;
@@ -135,7 +147,6 @@
     .box-right {
         grid-area: right-box;
         height: 10vw;
- 
     }
 
     .toughness-level h3 {
@@ -144,12 +155,10 @@
 
     .box-left p {
         font-size: 2.2rem;
-        
     }
     
     .box-right p {
         font-size: 2.2rem;
-        
     }
 }
 
@@ -157,24 +166,29 @@
 .box-left:hover {
     transform: scale(1.05);
 }
+
 /*box left happens only if you hover over it with a mouse*/
 .box-right:hover {
     transform: scale(1.05);
 }
+
 /*targeting the miðstig box to change the color*/
 .orange-color {
     border: solid 0.2rem #ff9933;
     background-color: #fffaf5;
 }
+
 /*targeting the top box and border bottom and change it to orange color*/
 .orange-color-line {
     border-bottom: solid 0.2rem #ff9933;
 }
+
 /*changing the lengra komnir color to blue*/
 .blue-color {
     background-color: #f5fcfa;
     border: solid 0.2rem #3399cc;
 }
+
 /*changing the border bottom color of the top box to blue*/
 .blue-color-line {
     border-bottom: solid 0.2rem #3399cc;

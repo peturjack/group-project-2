@@ -8,8 +8,6 @@ function showHide() {
 
     // Add a click event listener to the "menuButton" element
     hamburgerMenu.addEventListener("click", () => {
-        console.log("Hello");
-
         // Check if the "dropdown" element has the class "dropdown-open"
         if (dropDown.classList.contains("dropdown-open")) {
             // If the dropdown is open, close it and change the icon back to the hamburger menu
@@ -22,6 +20,5 @@ function showHide() {
         }
     });
 }
-
 // Call the function to set up the event listener
 showHide();

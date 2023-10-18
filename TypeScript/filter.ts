@@ -6,7 +6,6 @@ function dropDown() {
     if (!filterDropdown || !filterIcon || !container) {
         return;
     }
-
     filterIcon.addEventListener("click", () => {
         if (filterDropdown.classList.contains("filter-dropdown-open")) {
             filterDropdown.classList.remove("filter-dropdown-open");
@@ -17,5 +16,4 @@ function dropDown() {
         }
     });
 }
-
 dropDown();
