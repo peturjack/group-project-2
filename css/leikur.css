@@ -29,7 +29,7 @@
 }*/
 
 .ordaleikurinn {
-    margin-top: 1rem;
+    margin-top: 2rem;
     width: fit-content;
     height: 60rem;
     width: 100%;
@@ -38,6 +38,12 @@
 /*font size for text inside the button*/
 .leikur p {
     font-size: 3.2rem;
+}
+
+.buttonCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*button to "finish" the game and get to the next page */
