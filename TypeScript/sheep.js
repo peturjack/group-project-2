@@ -1,18 +1,18 @@
 "use strict";
 //sheep animation
-let id = 0;
+let walk = 0;
 function mySheep() {
     let sheep = document.querySelector(".sheep img");
     let pos = 0;
-    clearInterval(id);
-    id = setInterval(frame, 50);
+    clearInterval(walk);
+    walk = setInterval(frame, 50);
     function frame() {
         if (pos >= 360) {
-            clearInterval(id);
+            clearInterval(walk);
         }
         else {
             if (sheep === null) {
-                clearInterval(id);
+                clearInterval(walk);
                 return;
             }
             pos++;
