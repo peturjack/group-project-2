@@ -25,7 +25,3 @@ function showHide() {
 
 // Call the function to set up the event listener
 showHide();
-
-
-
-
