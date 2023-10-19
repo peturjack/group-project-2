@@ -30,8 +30,8 @@
     text-align: center;
     margin-bottom: 1rem;
     font-weight: 500;
-    
 }
+
 /*button to register points*/
 a {
     color: black;
@@ -99,7 +99,6 @@ a {
 }
 
 .confetti-container {
-   
     position: relative; /* Ensure positioning works as expected */
     overflow: hidden; /* Hide any overflowing confetti */
-  }
+}
