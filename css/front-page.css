@@ -11,8 +11,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
+.image{
+    border-radius: 2rem;
+}
 /* Style buttons within the .Buttons class */
 .Buttons button {
     position: relative;
