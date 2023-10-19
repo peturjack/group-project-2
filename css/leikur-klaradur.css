@@ -97,8 +97,3 @@ a {
 .finna-nyjan-leik p {
     font-size: 2rem;
 }
-
-.confetti-container {
-    position: relative; /* Ensure positioning works as expected */
-    overflow: hidden; /* Hide any overflowing confetti */
-}
