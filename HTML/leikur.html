@@ -1,53 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/leikur.css">
-    <link rel="stylesheet" href="../css/style.css">
-    <title>Skólavefurinn.is</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/leikur.css">
+        <link rel="stylesheet" href="../css/style.css">
+        <title>Skólavefurinn.is</title>
         <link rel="icon" href="../photos/icon.png" type="image/x-icon">
-</head>
-<body>
-        <!-- header -->
+    </head>
+    <body>
+        <!-- header starts -->
         <div class="header">
             <a href="front-page.html"><img class="logo" src="../photos/logo.svg" alt="skolavefurinn.is logo"></a>
+            <div class="container-hamburger">
                 <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg" alt="menu">
             </div>
-        <!-- dropdown menu -->
-            <div id="dropdown" class="dropdown-menu">
+        </div>
+        <!-- header ends -->
+        <!-- dropdown menu starts -->
+        <div id="dropdown" class="dropdown-menu">
             <nav>
                 <ul>
                     <li><a href="leit.html">Leit</a></li>
-                    <li><a href="#">Um okkur</a></li>
-                    <li><a href="#">Áskriftir</a></li>
-                    <li><a href="#">Hafa samband</a></li>
-                    <li><a href="#">Hjálp</a></li>
+                    <li><a href="um-okkur.html">Um okkur</a></li>
+                    <li><a href="askriftir.html">Áskriftir</a></li>
+                    <li><a href="hafa-samband.html">Hafa samband</a></li>
+                    <li><a href="hjalp.html">Hjálp</a></li>
                 </ul>
             </nav>
         </div>
+        <!-- dropdown menu ends -->
         <!-- this div is for padding on the page to keep everything within a frame -->
         <div class="leikur-page-1">
-        <!-- button to get back to the previous -->
-        <div class="arrow">
-            <a href="byrjendur.html">
-                <img src="../icons/arrow_byrjendur.svg" alt="back-arrow">
-            </a>
+            <!-- button to get back to the previous -->
+            <div class="arrow">
+                <a href="byrjendur.html">
+                    <img src="../icons/arrow_byrjendur.svg" alt="back-arrow">
+                </a>
+            </div>
+            <!-- game from Skólavefurinn actual website -->
+            <div class="leikur">
+                <iframe class="ordaleikurinn" src="https://skolavefurinn.is/node/8748?drag-drop=1&start-page-drag=1" title="Orðaleikurinn"></iframe>
+            </div>
+            <!-- button to "finish" the game and get to the next page -->
+            <div class="buttonCenter">
+                <a href="leikur-klaradur.html">
+                    <button type="submit" class="klara-leik">
+                        <p>Klára leik</p>
+                    </button>
+                </a>
+            </div>
         </div>
-        <!-- placeholder box for the game -->
-        <Div class="leikur">
-            <iframe class="ordaleikurinn" src="https://skolavefurinn.is/node/8748?drag-drop=1&start-page-drag=1" title="Orðaleikurinn"></iframe>
-        </Div>
-        <!-- button to "finish" the game and get to the next page -->
-        <div class="buttonCenter">
-        <a href="leikur-klaradur.html">
-            <button type="submit" class="klara-leik">
-                <p>Klára leik</p>
-            </button>
-            </a>
-        </a>
-    </div>
-    <!--typescript for dropdown menu-->
-    <script src="../TypeScript/menu.js"></script>
-</body>
+        <!--typescript for dropdown menu-->
+        <script src="../TypeScript/menu.js"></script>
+    </body>
 </html>

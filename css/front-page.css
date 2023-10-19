@@ -15,7 +15,7 @@
 }
 
 .image{
-    border-radius: 2rem;
+    border-radius: 0.5rem;
 }
 /* Style buttons within the .Buttons class */
 .Buttons button {
@@ -154,48 +154,47 @@
     }
 
     /* Specific styling for the "Stærðfræði" button */
-.Stærðfræði button {
-    border-color: #ffe0c2;
-    border-style: solid;
-}
+    .Stærðfræði button {
+        border-color: #ffe0c2;
+        border-style: solid;
+    }
 
-/* Specific styling for the "Enska" button */
-.Enska button {
-    border-color: #c2e0f0;
-    border-style: solid;
-}
+    /* Specific styling for the "Enska" button */
+    .Enska button {
+        border-color: #c2e0f0;
+        border-style: solid;
+    }
 
-/* Specific styling for the "Danska" button */
-.Danska button {
-    border-color: #ffc2c2;
-    border-style: solid;
-}
+    /* Specific styling for the "Danska" button */
+    .Danska button {
+        border-color: #ffc2c2;
+        border-style: solid;
+    }
 
-/* Specific styling for the "Samfélagsgreinar" button */
-.Samfélagsgreinar button {
-    border-color: #f2cbf2;
-    border-style: solid;
-}
+    /* Specific styling for the "Samfélagsgreinar" button */
+    .Samfélagsgreinar button {
+        border-color: #f2cbf2;
+        border-style: solid;
+    }
 
-/* Add a magnifying glass icon after the "Leita" button */
-.Leita button::after {
-    content: "";
-    display: inline-block;
-    width: 2rem;
-    height: 2rem;
-    background-image: url("../icons/magnifying_glass.svg");
-    background-size: cover;
-    position: absolute;
-    right: 2.5rem;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
+    /* Add a magnifying glass icon after the "Leita" button */
+    .Leita button::after {
+        content: "";
+        display: inline-block;
+        width: 2rem;
+        height: 2rem;
+        background-image: url("../icons/magnifying_glass.svg");
+        background-size: cover;
+        position: absolute;
+        right: 2.5rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
     /* Adjust the grid container to place background next to buttons */
     .grid-container {
         display: grid;
-        grid-template-columns: auto 1fr;  /* Adjust column widths to place background next to buttons */
+        grid-template-columns: auto 1fr; /* Adjust column widths to place background next to buttons */
         align-items: center;
         margin-bottom: 2.4rem;
         margin-right: 6rem;

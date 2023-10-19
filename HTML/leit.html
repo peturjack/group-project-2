@@ -1,156 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/style.css">
-    <link rel="stylesheet" href="../css/leit.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <title>Skólavefurinn.is</title>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/leit.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <title>Skólavefurinn.is</title>
         <link rel="icon" href="../photos/icon.png" type="image/x-icon">
-</head>
-<body>
-        <!--header-->
+    </head>
+    <body>
+        <!-- header starts -->
         <div class="header">
             <a href="front-page.html"><img class="logo" src="../photos/logo.svg" alt="skolavefurinn.is logo"></a>
+            <div class="container-hamburger">
                 <img id="menuButton" class="menu" src="../icons/hamburger_menu.svg" alt="menu">
             </div>
-        <!--dropdown menu-->
+        </div>
+        <!-- header ends -->
+        <!-- dropdown menu starts -->
         <div id="dropdown" class="dropdown-menu">
             <nav>
                 <ul>
                     <li><a href="leit.html">Leit</a></li>
-                    <li><a href="#">Um okkur</a></li>
-                    <li><a href="#">Áskriftir</a></li>
-                    <li><a href="#">Hafa samband</a></li>
-                    <li><a href="#">Hjálp</a></li>
+                    <li><a href="um-okkur.html">Um okkur</a></li>
+                    <li><a href="askriftir.html">Áskriftir</a></li>
+                    <li><a href="hafa-samband.html">Hafa samband</a></li>
+                    <li><a href="hjalp.html">Hjálp</a></li>
                 </ul>
             </nav>
         </div>
+        <!-- dropdown menu ends -->
         <div class="leitPage">
         <!--heading-->
-        <p class="heading">Leit</p>
-        <!--search box-->
-        <div class="wrapper">
-            <img class="search-icon" src="../icons/magnifying_glass.svg" alt="magnifying glass"/>
-            <input class="search" id="search" placeholder="    Hverju ertu að leita að?" type="text" >
-          </div>
-        <hr class="line">
-        <!--search filters-->
-        <div class="searchFilters">
-            <div class="catName">
+            <p class="heading">Leit</p>
+            <!--search box-->
+            <div class="wrapper">
+                <img class="search-icon" src="../icons/magnifying_glass.svg" alt="magnifying glass"/>
+                <input class="search" id="search" placeholder="    Hverju ertu að leita að?" type="text" >
+            </div>
+            <hr class="line">
+            <!--search filters-->
+            <div class="searchFilters">
                 <!--fag og tegund-->
-                <h3 class="fagWord">Fag<hr class="fagLine"/></h3>
-                <h3 class="tegundWord">Tegund <hr class="tegundLine"></h3>
-            </div>
-            <div class="catItems">
-                <div class="fagItems">
+                <div class="catName">
+                    <h3 class="fagWord">Fag<hr class="fagLine"/></h3>
+                    <h3 class="tegundWord">Tegund <hr class="tegundLine"></h3>
+                </div>
+                <div class="catItems">
                     <!--fag-->
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Íslenska</p></span>
-                    </label>
-
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Stærðfræði</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Enska</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Danska</p></span>
-                    </label>
-
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Samfélagsgr.</p></span>
-                    </label>
-                </div>
-
-                <div class="tegundItems">
+                    <div class="fagItems">
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Íslenska</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Stærðfræði</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Enska</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Danska</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Samfélagsgr.</p></span>
+                        </label>
+                    </div>
                     <!--tegund-->
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Próf</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Leikir</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Lesefni</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Verkefni</p></span>
-                    </label>
-
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Útprentað</p></span>
-                    </label>
-                </div> 
-            </div>
-
-            <div class="catName">
+                    <div class="tegundItems">
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Próf</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Leikir</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Lesefni</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Verkefni</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Útprentað</p></span>
+                        </label>
+                    </div> 
+                </div>
                 <!--erfiðleika stig og tímalengd-->
-                <h3 class="erfiðleikaWord">Erfiðleika stig <hr class="erfiðleikaLine"></h3>
-                <h3 class="timaWord">Tímalengd <hr class="timaLine"></h3>
-            </div>
-            <div class="catItems">
-                <div class="erfiðleikaItems">
+                <div class="catName">
+                    <h3 class="erfiðleikaWord">Erfiðleika stig <hr class="erfiðleikaLine"></h3>
+                    <h3 class="timaWord">Tímalengd <hr class="timaLine"></h3>
+                </div>
+                <div class="catItems">
                     <!--erfiðleika stig-->
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Byrjendur</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Miðstig</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>Lengra komnir</p></span>
-                    </label>
-                </div>
-
-                <div class="timaItems">
+                    <div class="erfiðleikaItems">
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Byrjendur</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Miðstig</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>Lengra komnir</p></span>
+                        </label>
+                    </div>
                     <!--tímalengd-->
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>0-10 mín</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>10-30 mín</p></span>
-                    </label>
-                    
-                    <label class="container">
-                        <input type="checkbox">
-                        <span class="checkmark"><p>30+ mín</p></span>
-                    </label>
+                    <div class="timaItems">
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>0-10 mín</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>10-30 mín</p></span>
+                        </label>
+                        <label class="container">
+                            <input type="checkbox">
+                            <span class="checkmark"><p>30+ mín</p></span>
+                        </label>
+                    </div>
                 </div>
             </div>
+            <!-- search button-->
+            <a href="#">
+                <button type="submit" class="leita">Leita</button>
+            </a>
         </div>
-        <!-- search button-->
-        <a href="#">
-            <button type="submit" class="leita">Leita</button>
-        </a>
-    <!--typescript for dropdown menu-->
-    <script src="../TypeScript/menu.js"></script>
-</body>
+        <!--typescript for dropdown menu-->
+        <script src="../TypeScript/menu.js"></script>
+    </body>
 </html>

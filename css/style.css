@@ -56,7 +56,6 @@ li {
 .dropdown-open {
     right: 0;
     width: 45%;
-    
 }
 
 .dropdown-menu li {
@@ -74,6 +73,7 @@ li {
 .dropdown-menu nav ul li a:hover {
     color: #ff9933;
 }
+
 /*active effects so when you click the mouse on all the a tags in the dropdown menu*/
 .dropdown-menu nav ul li a:active {
     color: #ff99338e;
@@ -86,4 +86,32 @@ li {
     position: relative;
     margin-top: 1.6rem;
     margin-bottom: 1.5rem;
+}
+
+/*sample stuff for the pages that are a work in progress*/
+.headingSample {
+    font-size: 2.4rem;
+    text-align: left;
+    font-weight: lighter;
+    margin: 6rem 3.4rem 3rem;
+}
+
+.sample {
+    margin: 0 3.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sample img {
+    border-radius: 1rem;
+}
+
+.textSample {
+    font-size: 1.6rem;
+    text-align: left;
+    font-weight: lighter;
+    margin: 3rem 3.4rem;
+    max-width: 70rem;
+    line-height: 2rem;
 }
